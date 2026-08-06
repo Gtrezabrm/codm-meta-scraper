@@ -443,3 +443,350 @@
     }
   ]
 }
+{
+  "last_updated": "2026-08-06",
+  "weapons": [
+    {
+      "name": "BP50",
+      "class": "AR",
+      "tier": "S",
+      "loadouts": [
+        {
+          "mode": "Multiplayer",
+          "name": "Aggressive Meta",
+          "attachments": {
+            "Muzzle": "Agency Suppressor",
+            "Barrel": "Leroy 438mm Barrel",
+            "Stock": "Leroy Custom Stock",
+            "Laser": "OWC Laser - Tactical",
+            "Magazine": "60 Round Mag"
+          },
+          "perks": ["Lightweight", "Quick Fix", "Dead Silence"]
+        }
+      ]
+    },
+    {
+      "name": "Oden",
+      "class": "AR",
+      "tier": "S",
+      "loadouts": [
+        {
+          "mode": "Multiplayer",
+          "name": "2 Shot Meta",
+          "attachments": {
+            "Muzzle": "Tactical Suppressor",
+            "Barrel": "OWC Ranger",
+            "Stock": "YKM Combat Stock",
+            "Laser": "OWC Laser - Tactical",
+            "Rear Grip": "Granulated Grip Tape"
+          },
+          "perks": ["Skulker", "Quick Fix", "Dead Silence"]
+        }
+      ]
+    },
+    {
+      "name": "DR-H",
+      "class": "AR",
+      "tier": "S",
+      "loadouts": [
+        {
+          "mode": "Multiplayer",
+          "name": "OTM Ranked",
+          "attachments": {
+            "Muzzle": "Monolithic Suppressor",
+            "Barrel": "OWC Ranger",
+            "Laser": "OWC Laser - Tactical",
+            "Magazine": "25 Round OTM Mag",
+            "Rear Grip": "Granulated Grip Tape"
+          },
+          "perks": ["Lightweight", "Quick Fix", "Dead Silence"]
+        }
+      ]
+    },
+    {
+      "name": "Krig 6",
+      "class": "AR",
+      "tier": "S",
+      "loadouts": [
+        {
+          "mode": "Multiplayer",
+          "name": "Beam Build",
+          "attachments": {
+            "Muzzle": "Agency Suppressor",
+            "Barrel": "Taskforce Barrel",
+            "Stock": "Agile Stock",
+            "Laser": "OWC Laser - Tactical",
+            "Rear Grip": "Firm Grip Tape"
+          },
+          "perks": ["Skulker", "Quick Fix", "Dead Silence"]
+        }
+      ]
+    },
+    {
+      "name": "Type 19",
+      "class": "AR",
+      "tier": "S",
+      "loadouts": [
+        {
+          "mode": "Multiplayer",
+          "name": "Hybrid Meta",
+          "attachments": {
+            "Muzzle": "Monolithic Suppressor",
+            "Barrel": "Accurate Barrel",
+            "Stock": "Light Stock",
+            "Laser": "OWC Laser - Tactical",
+            "Magazine": "Fast Extended Mag"
+          },
+          "perks": ["Skulker", "Quick Fix", "Dead Silence"]
+        }
+      ]
+    },
+    {
+      "name": "USS 9",
+      "class": "SMG",
+      "tier": "S",
+      "loadouts": [
+        {
+          "mode": "Multiplayer",
+          "name": "Mobility Meta",
+          "attachments": {
+            "Muzzle": "Monolithic Suppressor",
+            "Barrel": "Extended Barrel",
+            "Stock": "No Stock",
+            "Laser": "OWC Laser - Tactical",
+            "Magazine": "Extended Mag A"
+          },
+          "perks": ["Lightweight", "Quick Fix", "Dead Silence"]
+        }
+      ]
+    },
+    {
+      "name": "CX-9",
+      "class": "SMG",
+      "tier": "S",
+      "loadouts": [
+        {
+          "mode": "Multiplayer",
+          "name": "CQB Meta",
+          "attachments": {
+            "Muzzle": "Monolithic Suppressor",
+            "Barrel": "CX-23 Barrel",
+            "Stock": "CX-FR Stock",
+            "Laser": "OWC Laser - Tactical",
+            "Magazine": "50 Round Drum"
+          },
+          "perks": ["Lightweight", "Quick Fix", "Dead Silence"]
+        }
+      ]
+    },
+    {
+      "name": "QQ9",
+      "class": "SMG",
+      "tier": "S",
+      "loadouts": [
+        {
+          "mode": "Multiplayer",
+          "name": "Fast Rush",
+          "attachments": {
+            "Muzzle": "Monolithic Suppressor",
+            "Barrel": "Recon Tac Long",
+            "Stock": "No Stock",
+            "Laser": "OWC Laser - Tactical",
+            "Rear Grip": "Granulated Grip Tape"
+          },
+          "perks": ["Lightweight", "Quick Fix", "Dead Silence"]
+        }
+      ]
+    },
+    {
+      "name": "Fennec",
+      "class": "SMG",
+      "tier": "A",
+      "loadouts": [
+        {
+          "mode": "Multiplayer",
+          "name": "Hipfire",
+          "attachments": {
+            "Muzzle": "Monolithic Suppressor",
+            "Barrel": "Extended Barrel",
+            "Stock": "No Stock",
+            "Laser": "MIP Laser 5mW",
+            "Magazine": "Extended Mag A"
+          },
+          "perks": ["Lightweight", "Quick Fix", "Dead Silence"]
+        }
+      ]
+    },
+    {
+      "name": "Switchblade X9",
+      "class": "SMG",
+      "tier": "A",
+      "loadouts": [
+        {
+          "mode": "Multiplayer",
+          "name": "Balanced",
+          "attachments": {
+            "Muzzle": "Monolithic Suppressor",
+            "Barrel": "MIP Extended Light Barrel",
+            "Stock": "YKM Light Stock",
+            "Laser": "OWC Laser - Tactical",
+            "Magazine": "Extended Mag"
+          },
+          "perks": ["Lightweight", "Quick Fix", "Dead Silence"]
+        }
+      ]
+    },
+    {
+      "name": "MG42",
+      "class": "LMG",
+      "tier": "S",
+      "loadouts": [
+        {
+          "mode": "Multiplayer",
+          "name": "Laser Beam",
+          "attachments": {
+            "Muzzle": "Maxim Silencer",
+            "Barrel": "Krausnick 355mm",
+            "Stock": "VDD 64M",
+            "Laser": "OWC Laser - Tactical",
+            "Rear Grip": "Leather Grip"
+          },
+          "perks": ["Skulker", "Quick Fix", "Dead Silence"]
+        }
+      ]
+    },
+    {
+      "name": "UL736",
+      "class": "LMG",
+      "tier": "A",
+      "loadouts": [
+        {
+          "mode": "Multiplayer",
+          "name": "Anchor",
+          "attachments": {
+            "Muzzle": "Monolithic Suppressor",
+            "Barrel": "OWC Ranger",
+            "Stock": "RTC Steady Stock",
+            "Laser": "OWC Laser - Tactical",
+            "Rear Grip": "Granulated Grip Tape"
+          },
+          "perks": ["Skulker", "Quick Fix", "Alert"]
+        }
+      ]
+    },
+    {
+      "name": "LW3-Tundra",
+      "class": "Sniper",
+      "tier": "S",
+      "loadouts": [
+        {
+          "mode": "Multiplayer",
+          "name": "Quickscope",
+          "attachments": {
+            "Barrel": "28.2 Tiger Team",
+            "Stock": "Raider Pad",
+            "Laser": "OWC Laser - Tactical",
+            "Rear Grip": "Serpent Wrap",
+            "Perk": "FMJ"
+          },
+          "perks": ["Lightweight", "Amped", "Dead Silence"]
+        }
+      ]
+    },
+    {
+      "name": "DL Q33",
+      "class": "Sniper",
+      "tier": "S",
+      "loadouts": [
+        {
+          "mode": "Multiplayer",
+          "name": "Classic",
+          "attachments": {
+            "Barrel": "MIP Light",
+            "Stock": "YKM Combat Stock",
+            "Laser": "OWC Laser - Tactical",
+            "Rear Grip": "Stippled Grip Tape",
+            "Perk": "FMJ"
+          },
+          "perks": ["Lightweight", "Amped", "Dead Silence"]
+        }
+      ]
+    },
+    {
+      "name": "Type 63",
+      "class": "Marksman",
+      "tier": "S",
+      "loadouts": [
+        {
+          "mode": "Multiplayer",
+          "name": "Competitive",
+          "attachments": {
+            "Muzzle": "Agency Suppressor",
+            "Barrel": "Taskforce Barrel",
+            "Stock": "Raider Stock",
+            "Laser": "OWC Laser - Tactical",
+            "Rear Grip": "Serpent Wrap"
+          },
+          "perks": ["Skulker", "Quick Fix", "Dead Silence"]
+        }
+      ]
+    },
+    {
+      "name": "R9-0",
+      "class": "Shotgun",
+      "tier": "A",
+      "loadouts": [
+        {
+          "mode": "Multiplayer",
+          "name": "Aggressive",
+          "attachments": {
+            "Muzzle": "Choke",
+            "Barrel": "MIP Extended Light Barrel",
+            "Laser": "MIP Laser 5mW",
+            "Magazine": "Tube Extension",
+            "Rear Grip": "Granulated Grip Tape"
+          },
+          "perks": ["Lightweight", "Gung-Ho", "Dead Silence"]
+        }
+      ]
+    },
+    {
+      "name": "KRM-262",
+      "class": "Shotgun",
+      "tier": "A",
+      "loadouts": [
+        {
+          "mode": "Multiplayer",
+          "name": "One Shot",
+          "attachments": {
+            "Muzzle": "Marauder Suppressor",
+            "Barrel": "Extended Barrel",
+            "Laser": "MIP Laser 5mW",
+            "Stock": "No Stock",
+            "Rear Grip": "Granulated Grip Tape"
+          },
+          "perks": ["Lightweight", "Gung-Ho", "Dead Silence"]
+        }
+      ]
+    },
+    {
+      "name": "L-CAR 9",
+      "class": "Pistol",
+      "tier": "S",
+      "loadouts": [
+        {
+          "mode": "Multiplayer",
+          "name": "Secondary Meta",
+          "attachments": {
+            "Muzzle": "Monolithic Suppressor",
+            "Barrel": "Extended Barrel",
+            "Laser": "OWC Laser - Tactical",
+            "Magazine": "Extended Mag",
+            "Rear Grip": "Granulated Grip Tape"
+          },
+          "perks": ["Lightweight", "Quick Fix", "Dead Silence"]
+        }
+      ]
+    }
+  ]
+}

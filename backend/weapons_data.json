@@ -1,4 +1,5 @@
 {
+  "last_updated": "2026-08-06",
   "weapons": [
     {
       "name": "SO-14",
@@ -13,9 +14,7 @@
             "Barrel": "MIP Extended Light Barrel",
             "Stock": "YKM Combat Stock",
             "Laser": "OWC Laser - Tactical",
-            "Underbarrel": "Operator Foregrip",
-            "Magazine": "25 Round Mags",
-            "Rear Grip": "Granulated Grip Tape"
+            "Magazine": "25 Round Mags"
           },
           "perks": ["Lightweight", "Toughness", "Dead Silence"]
         }
@@ -34,9 +33,7 @@
             "Barrel": "MIP Extended Light Barrel",
             "Stock": "No Stock",
             "Laser": "OWC Laser - Tactical",
-            "Magazine": "50 Round Extended Mag",
-            "Rear Grip": "Stippled Grip Tape",
-            "Underbarrel": "Merc Foregrip"
+            "Magazine": "50 Round Extended Mag"
           },
           "perks": ["Lightweight", "Quick Fix", "Dead Silence"]
         },
@@ -48,9 +45,7 @@
             "Barrel": "MIP Extended Light Barrel",
             "Stock": "YKM Combat Stock",
             "Laser": "OWC Laser - Tactical",
-            "Magazine": "50 Round Extended Mag",
-            "Underbarrel": "Operator Foregrip",
-            "Rear Grip": "Granulated Grip Tape"
+            "Magazine": "50 Round Extended Mag"
           },
           "perks": ["Lightweight", "Quick Fix", "Dead Silence"]
         }
@@ -69,8 +64,6 @@
             "Barrel": "Taskforce Barrel",
             "Stock": "SAS Combat Stock",
             "Laser": "OWC Laser - Tactical",
-            "Underbarrel": "Foregrip",
-            "Magazine": "Extended Mag A",
             "Rear Grip": "Claw Grip"
           },
           "perks": ["Quick Fix", "Dead Silence", "Overclock"]
@@ -90,9 +83,7 @@
             "Barrel": "Oden Colossus Suppressor",
             "Stock": "Oden Stock",
             "Laser": "OWC Laser - Tactical",
-            "Underbarrel": "Operator Foregrip",
-            "Magazine": "25 Round Extended Mag",
-            "Rear Grip": "Stippled Grip Tape"
+            "Underbarrel": "Operator Foregrip"
           },
           "perks": ["Lightweight", "Toughness", "Dead Silence"]
         },
@@ -104,8 +95,6 @@
             "Barrel": "Oden Colossus Suppressor",
             "Stock": "Oden Stock",
             "Laser": "OWC Laser - Tactical",
-            "Underbarrel": "Ranger Foregrip",
-            "Magazine": "25 Round Extended Mag",
             "Optic": "3x Tactical Scope"
           },
           "perks": ["Lightweight", "Toughness", "Dead Silence"]
@@ -122,12 +111,10 @@
           "name": "Versatile 3-Tap",
           "attachments": {
             "Muzzle": "Monolithic Suppressor",
-            "Barrel": "MIP Custom Long Barrel",
+            "Barrel": "OWC Ranger",
             "Stock": "MIP Strike Stock",
             "Laser": "OWC Laser - Tactical",
-            "Underbarrel": "Ranger Foregrip",
-            "Magazine": "OTM Mag",
-            "Rear Grip": "Granulated Grip Tape"
+            "Magazine": "25 Round OTM Mag"
           },
           "perks": ["Lightweight", "Quick Fix", "Dead Silence"]
         },
@@ -139,9 +126,7 @@
             "Barrel": "MIP Custom Long Barrel",
             "Stock": "YKM Combat Stock",
             "Laser": "OWC Laser - Tactical",
-            "Underbarrel": "Operator Foregrip",
-            "Magazine": "OTM Mag",
-            "Optic": "4x Tactical Scope"
+            "Magazine": "OTM Mag"
           },
           "perks": ["Lightweight", "Toughness", "Dead Silence"]
         }
@@ -160,8 +145,7 @@
             "Barrel": "LW3-Tundra Barrel",
             "Stock": "LW3-Tundra Stock",
             "Laser": "OWC Laser - Tactical",
-            "Magazine": "7 Round Extended Mag",
-            "Rear Grip": "Stippled Grip Tape"
+            "Magazine": "7 Round Extended Mag"
           },
           "perks": ["Lightweight", "Toughness", "Dead Silence"]
         }
@@ -180,8 +164,7 @@
             "Barrel": "MIP Light Barrel",
             "Stock": "YKM Combat Stock",
             "Laser": "OWC Laser - Tactical",
-            "Magazine": "Extended Mag A",
-            "Rear Grip": "Stippled Grip Tape"
+            "Magazine": "Extended Mag A"
           },
           "perks": ["Lightweight", "Toughness", "Dead Silence"]
         },
@@ -193,7 +176,6 @@
             "Barrel": "MIP Light Barrel",
             "Stock": "YKM Combat Stock",
             "Laser": "OWC Laser - Tactical",
-            "Magazine": "Extended Mag A",
             "Optic": "6x Tactical Scope"
           },
           "perks": ["Lightweight", "Toughness", "Dead Silence"]
@@ -213,9 +195,7 @@
             "Barrel": "MIP Light Barrel",
             "Stock": "No Stock",
             "Laser": "OWC Laser - Tactical",
-            "Underbarrel": "Operator Foregrip",
-            "Magazine": "100 Round Mag",
-            "Rear Grip": "Stippled Grip Tape"
+            "Magazine": "100 Round Mag"
           },
           "perks": ["Lightweight", "Quick Fix", "Dead Silence"]
         },
@@ -227,8 +207,6 @@
             "Barrel": "MIP Light Barrel",
             "Stock": "YKM Combat Stock",
             "Laser": "OWC Laser - Tactical",
-            "Underbarrel": "Ranger Foregrip",
-            "Magazine": "100 Round Mag",
             "Optic": "Red Dot Sight"
           },
           "perks": ["Lightweight", "Toughness", "Dead Silence"]
@@ -248,9 +226,7 @@
             "Barrel": "MIP Light Barrel",
             "Stock": "MIP Strike Stock",
             "Laser": "OWC Laser - Tactical",
-            "Underbarrel": "Operator Foregrip",
-            "Magazine": "20 Round Extended Mag",
-            "Rear Grip": "Stippled Grip Tape"
+            "Underbarrel": "Operator Foregrip"
           },
           "perks": ["Lightweight", "Toughness", "Dead Silence"]
         }
@@ -269,9 +245,7 @@
             "Barrel": "MIP Light Barrel",
             "Stock": "No Stock",
             "Laser": "OWC Laser - Tactical",
-            "Underbarrel": "Operator Foregrip",
-            "Magazine": "20 Round Extended Mag",
-            "Rear Grip": "Stippled Grip Tape"
+            "Underbarrel": "Operator Foregrip"
           },
           "perks": ["Lightweight", "Toughness", "Dead Silence"]
         }
@@ -290,9 +264,7 @@
             "Barrel": "MIP Extended Light Barrel",
             "Stock": "No Stock",
             "Laser": "OWC Laser - Tactical",
-            "Underbarrel": "Ranger Foregrip",
-            "Magazine": "50 Round Extended Mag",
-            "Rear Grip": "Granulated Grip Tape"
+            "Underbarrel": "Ranger Foregrip"
           },
           "perks": ["Lightweight", "Quick Fix", "Dead Silence"]
         }
@@ -311,9 +283,7 @@
             "Barrel": "MIP Light Barrel",
             "Stock": "YKM Combat Stock",
             "Laser": "OWC Laser - Tactical",
-            "Underbarrel": "Operator Foregrip",
-            "Magazine": "High Caliber Mag",
-            "Rear Grip": "Stippled Grip Tape"
+            "Magazine": "High Caliber Mag"
           },
           "perks": ["Lightweight", "Quick Fix", "Dead Silence"]
         }
@@ -332,9 +302,7 @@
             "Barrel": "R9-0 Barrel",
             "Stock": "YKM Combat Stock",
             "Laser": "OWC Laser - Tactical",
-            "Underbarrel": "Merc Foregrip",
-            "Magazine": "Extended Mag A",
-            "Rear Grip": "Stippled Grip Tape"
+            "Underbarrel": "Merc Foregrip"
           },
           "perks": ["Lightweight", "Quick Fix", "Dead Silence"]
         }
@@ -353,9 +321,7 @@
             "Barrel": "MIP Extended Light Barrel",
             "Stock": "No Stock",
             "Laser": "OWC Laser - Tactical",
-            "Underbarrel": "Merc Foregrip",
-            "Magazine": "Extended Mag A",
-            "Rear Grip": "Stippled Grip Tape"
+            "Underbarrel": "Merc Foregrip"
           },
           "perks": ["Lightweight", "Quick Fix", "Dead Silence"]
         }
@@ -393,9 +359,7 @@
             "Barrel": "MIP Light Barrel",
             "Stock": "No Stock",
             "Laser": "OWC Laser - Tactical",
-            "Underbarrel": "Operator Foregrip",
-            "Magazine": "100 Round Mag",
-            "Rear Grip": "Stippled Grip Tape"
+            "Magazine": "100 Round Mag"
           },
           "perks": ["Lightweight", "Quick Fix", "Dead Silence"]
         }
@@ -414,9 +378,7 @@
             "Barrel": "MIP Extended Light Barrel",
             "Stock": "No Stock",
             "Laser": "OWC Laser - Tactical",
-            "Underbarrel": "Merc Foregrip",
-            "Magazine": "Extended Mag A",
-            "Rear Grip": "Stippled Grip Tape"
+            "Magazine": "Extended Mag A"
           },
           "perks": ["Lightweight", "Quick Fix", "Dead Silence"]
         }
@@ -432,12 +394,10 @@
           "name": "All-Rounder AR",
           "attachments": {
             "Muzzle": "Monolithic Suppressor",
-            "Barrel": "MIP Extended Light Barrel",
-            "Stock": "MIP Strike Stock",
+            "Barrel": "Leroy 438mm",
+            "Stock": "Leroy Custom",
             "Laser": "OWC Laser - Tactical",
-            "Underbarrel": "Operator Foregrip",
-            "Magazine": "50 Round Extended Mag",
-            "Rear Grip": "Granulated Grip Tape"
+            "Magazine": "60 Round Mag"
           },
           "perks": ["Lightweight", "Quick Fix", "Dead Silence"]
         }
@@ -456,9 +416,7 @@
             "Barrel": "MIP Light Barrel",
             "Stock": "YKM Combat Stock",
             "Laser": "OWC Laser - Tactical",
-            "Underbarrel": "Ranger Foregrip",
-            "Magazine": "30 Round Extended Mag",
-            "Rear Grip": "Stippled Grip Tape"
+            "Underbarrel": "Ranger Foregrip"
           },
           "perks": ["Lightweight", "Quick Fix", "Dead Silence"]
         }
@@ -473,18 +431,15 @@
           "mode": "Multiplayer",
           "name": "New Season Shotgun",
           "attachments": {
-            "Muzzle": "Monolithic Suppressor",
-            "Barrel": "MX Guardian Barrel",
-            "Stock": "No Stock",
-            "Laser": "OWC Laser - Tactical",
-            "Underbarrel": "Merc Foregrip",
-            "Magazine": "Extended Mag A",
-            "Rear Grip": "Stippled Grip Tape"
+            "Muzzle": "SA MX-50",
+            "Barrel": "MX-G Mobile",
+            "Stock": "Rustler Pad",
+            "Laser": "RTC Laser 1mW",
+            "Rear Grip": "HEX-40 Grip"
           },
-          "perks": ["Lightweight", "Quick Fix", "Dead Silence"]
+          "perks": ["Lightweight", "Quick Fix", "High Alert"]
         }
       ]
     }
-  ],
-  "last_updated": "2026-08-06T00:00:00Z"
+  ]
 }

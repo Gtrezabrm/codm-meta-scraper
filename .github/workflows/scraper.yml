@@ -1,0 +1,36 @@
+name: Auto COD Scraper
+
+on:
+  schedule:
+    - cron: '0 0 * * 0' # اجرای خودکار هر یکشنبه
+  workflow_dispatch: # امکان اجرای دستی
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install Dependencies
+        run: |
+          cd backend
+          pip install -r requirements.txt
+
+      - name: Run Scraper Script
+        run: |
+          cd backend
+          python scraper.py
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "Auto Scraper Bot"
+          git config --global user.email "bot@github.com"
+          git add backend/weapons_data.json
+          git commit -m "Auto update meta weapons data [skip ci]" || exit 0
+          git push

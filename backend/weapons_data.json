@@ -1,0 +1,24 @@
+{
+  "weapons": [
+    {
+      "name": "MG42",
+      "class": "LMG",
+      "tier": "S",
+      "loadouts": [
+        {
+          "mode": "Multiplayer",
+          "name": "T-800 Heavy Fire",
+          "attachments": {
+            "Muzzle": "Recoil Booster",
+            "Barrel": "KRAUSNICK 450MM B42MG",
+            "Stock": "VDD 64M",
+            "Laser": "Aim Assist Laser",
+            "Magazine": "250 Round Box"
+          },
+          "perks": ["Pin Point", "Vulture", "High Alert"]
+        }
+      ]
+    }
+  ],
+  "last_updated": "2026-08-06T00:00:00Z"
+}

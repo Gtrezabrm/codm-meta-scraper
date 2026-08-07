@@ -1,43 +1,43 @@
 {
+  "last_updated": "2026-08-07",
   "weapons": [
     {
-      "name": "BP50",
+      "name": "USS 9",
+      "class": "SMG",
+      "tier": "S",
+      "loadouts": [
+        {
+          "mode": "Multiplayer",
+          "name": "Zero Recoil Rusher",
+          "code": "USS9-7A2B4C8D1E",
+          "attachments": {
+            "Muzzle": "Monolithic Suppressor",
+            "Barrel": "MIP Extended Light Barrel",
+            "Stock": "No Stock",
+            "Laser": "OWC Laser - Tactical",
+            "Magazine": "50 Round Extended Mag"
+          },
+          "perks": ["Lightweight", "Quick Fix", "Dead Silence"]
+        }
+      ]
+    },
+    {
+      "name": "Oden",
       "class": "AR",
       "tier": "S",
       "loadouts": [
         {
           "mode": "Multiplayer",
-          "name": "Pro Multiplayer Build",
+          "name": "Two-Tap Dominator",
+          "code": "ODEN-3X5Y7Z9W2",
           "attachments": {
-            "Muzzle": "Tactical Suppressor",
-            "Barrel": "OWC Ranger",
-            "Stock": "No Stock",
+            "Muzzle": "Monolithic Suppressor",
+            "Barrel": "Oden Colossus Suppressor",
+            "Stock": "Oden Stock",
             "Laser": "OWC Laser - Tactical",
-            "Magazine": "50 Round Extended Mag"
+            "Underbarrel": "Operator Foregrip"
           },
-          "perks": [
-            "Lightweight",
-            "Quick Fix",
-            "Hardline"
-          ],
-          "code": ""
-        },
-        {
-          "mode": "Battle Royale",
-          "name": "Pro Battle Royale Build",
-          "attachments": {
-            "Muzzle": "Tactical Suppressor",
-            "Barrel": "OWC Ranger",
-            "Stock": "No Stock",
-            "Laser": "OWC Laser - Tactical",
-            "Magazine": "50 Round Extended Mag"
-          },
-          "perks": [
-            "Framework",
-            "Alertness",
-            "Awareness"
-          ],
-          "code": ""
+          "perks": ["Lightweight", "Toughness", "Dead Silence"]
         }
       ]
     },
@@ -48,693 +48,36 @@
       "loadouts": [
         {
           "mode": "Multiplayer",
-          "name": "Pro Multiplayer Build",
+          "name": "Versatile 3-Tap",
+          "code": "DRH-1B3C5D7E9F",
           "attachments": {
-            "Muzzle": "Tactical Suppressor",
-            "Barrel": "OWC Ranger",
-            "Stock": "No Stock",
+            "Muzzle": "Monolithic Suppressor",
+            "Barrel": "MIP Custom Long Barrel",
+            "Stock": "MIP Strike Stock",
             "Laser": "OWC Laser - Tactical",
-            "Magazine": "50 Round Extended Mag"
+            "Magazine": "25 Round OTM Mag"
           },
-          "perks": [
-            "Lightweight",
-            "Quick Fix",
-            "Hardline"
-          ],
-          "code": ""
-        },
-        {
-          "mode": "Battle Royale",
-          "name": "Pro Battle Royale Build",
-          "attachments": {
-            "Muzzle": "Tactical Suppressor",
-            "Barrel": "OWC Ranger",
-            "Stock": "No Stock",
-            "Laser": "OWC Laser - Tactical",
-            "Magazine": "50 Round Extended Mag"
-          },
-          "perks": [
-            "Framework",
-            "Alertness",
-            "Awareness"
-          ],
-          "code": ""
+          "perks": ["Lightweight", "Quick Fix", "Dead Silence"]
         }
       ]
     },
     {
-      "name": "Type 19",
-      "class": "AR",
-      "tier": "S",
-      "loadouts": [
-        {
-          "mode": "Multiplayer",
-          "name": "Pro Multiplayer Build",
-          "attachments": {
-            "Muzzle": "Tactical Suppressor",
-            "Barrel": "OWC Ranger",
-            "Stock": "No Stock",
-            "Laser": "OWC Laser - Tactical",
-            "Magazine": "50 Round Extended Mag"
-          },
-          "perks": [
-            "Lightweight",
-            "Quick Fix",
-            "Hardline"
-          ],
-          "code": ""
-        },
-        {
-          "mode": "Battle Royale",
-          "name": "Pro Battle Royale Build",
-          "attachments": {
-            "Muzzle": "Tactical Suppressor",
-            "Barrel": "OWC Ranger",
-            "Stock": "No Stock",
-            "Laser": "OWC Laser - Tactical",
-            "Magazine": "50 Round Extended Mag"
-          },
-          "perks": [
-            "Framework",
-            "Alertness",
-            "Awareness"
-          ],
-          "code": ""
-        }
-      ]
-    },
-    {
-      "name": "AK117",
-      "class": "AR",
-      "tier": "A",
-      "loadouts": [
-        {
-          "mode": "Multiplayer",
-          "name": "Pro Multiplayer Build",
-          "attachments": {
-            "Muzzle": "Tactical Suppressor",
-            "Barrel": "OWC Ranger",
-            "Stock": "No Stock",
-            "Laser": "OWC Laser - Tactical",
-            "Magazine": "50 Round Extended Mag"
-          },
-          "perks": [
-            "Lightweight",
-            "Quick Fix",
-            "Hardline"
-          ],
-          "code": ""
-        },
-        {
-          "mode": "Battle Royale",
-          "name": "Pro Battle Royale Build",
-          "attachments": {
-            "Muzzle": "Tactical Suppressor",
-            "Barrel": "OWC Ranger",
-            "Stock": "No Stock",
-            "Laser": "OWC Laser - Tactical",
-            "Magazine": "50 Round Extended Mag"
-          },
-          "perks": [
-            "Framework",
-            "Alertness",
-            "Awareness"
-          ],
-          "code": ""
-        }
-      ]
-    },
-    {
-      "name": "Grau 5.56",
-      "class": "AR",
-      "tier": "A",
-      "loadouts": [
-        {
-          "mode": "Multiplayer",
-          "name": "Pro Multiplayer Build",
-          "attachments": {
-            "Muzzle": "Tactical Suppressor",
-            "Barrel": "OWC Ranger",
-            "Stock": "No Stock",
-            "Laser": "OWC Laser - Tactical",
-            "Magazine": "50 Round Extended Mag"
-          },
-          "perks": [
-            "Lightweight",
-            "Quick Fix",
-            "Hardline"
-          ],
-          "code": ""
-        },
-        {
-          "mode": "Battle Royale",
-          "name": "Pro Battle Royale Build",
-          "attachments": {
-            "Muzzle": "Tactical Suppressor",
-            "Barrel": "OWC Ranger",
-            "Stock": "No Stock",
-            "Laser": "OWC Laser - Tactical",
-            "Magazine": "50 Round Extended Mag"
-          },
-          "perks": [
-            "Framework",
-            "Alertness",
-            "Awareness"
-          ],
-          "code": ""
-        }
-      ]
-    },
-    {
-      "name": "M13",
-      "class": "AR",
-      "tier": "A",
-      "loadouts": [
-        {
-          "mode": "Multiplayer",
-          "name": "Pro Multiplayer Build",
-          "attachments": {
-            "Muzzle": "Tactical Suppressor",
-            "Barrel": "OWC Ranger",
-            "Stock": "No Stock",
-            "Laser": "OWC Laser - Tactical",
-            "Magazine": "50 Round Extended Mag"
-          },
-          "perks": [
-            "Lightweight",
-            "Quick Fix",
-            "Hardline"
-          ],
-          "code": ""
-        },
-        {
-          "mode": "Battle Royale",
-          "name": "Pro Battle Royale Build",
-          "attachments": {
-            "Muzzle": "Tactical Suppressor",
-            "Barrel": "OWC Ranger",
-            "Stock": "No Stock",
-            "Laser": "OWC Laser - Tactical",
-            "Magazine": "50 Round Extended Mag"
-          },
-          "perks": [
-            "Framework",
-            "Alertness",
-            "Awareness"
-          ],
-          "code": ""
-        }
-      ]
-    },
-    {
-      "name": "LK24",
-      "class": "AR",
-      "tier": "A",
-      "loadouts": [
-        {
-          "mode": "Multiplayer",
-          "name": "Pro Multiplayer Build",
-          "attachments": {
-            "Muzzle": "Tactical Suppressor",
-            "Barrel": "OWC Ranger",
-            "Stock": "No Stock",
-            "Laser": "OWC Laser - Tactical",
-            "Magazine": "50 Round Extended Mag"
-          },
-          "perks": [
-            "Lightweight",
-            "Quick Fix",
-            "Hardline"
-          ],
-          "code": ""
-        },
-        {
-          "mode": "Battle Royale",
-          "name": "Pro Battle Royale Build",
-          "attachments": {
-            "Muzzle": "Tactical Suppressor",
-            "Barrel": "OWC Ranger",
-            "Stock": "No Stock",
-            "Laser": "OWC Laser - Tactical",
-            "Magazine": "50 Round Extended Mag"
-          },
-          "perks": [
-            "Framework",
-            "Alertness",
-            "Awareness"
-          ],
-          "code": ""
-        }
-      ]
-    },
-    {
-      "name": "Oden",
-      "class": "AR",
-      "tier": "B",
-      "loadouts": [
-        {
-          "mode": "Multiplayer",
-          "name": "Pro Multiplayer Build",
-          "attachments": {
-            "Muzzle": "Tactical Suppressor",
-            "Barrel": "OWC Ranger",
-            "Stock": "No Stock",
-            "Laser": "OWC Laser - Tactical",
-            "Magazine": "50 Round Extended Mag"
-          },
-          "perks": [
-            "Lightweight",
-            "Quick Fix",
-            "Hardline"
-          ],
-          "code": ""
-        },
-        {
-          "mode": "Battle Royale",
-          "name": "Pro Battle Royale Build",
-          "attachments": {
-            "Muzzle": "Tactical Suppressor",
-            "Barrel": "OWC Ranger",
-            "Stock": "No Stock",
-            "Laser": "OWC Laser - Tactical",
-            "Magazine": "50 Round Extended Mag"
-          },
-          "perks": [
-            "Framework",
-            "Alertness",
-            "Awareness"
-          ],
-          "code": ""
-        }
-      ]
-    },
-    {
-      "name": "KN-44",
-      "class": "AR",
-      "tier": "B",
-      "loadouts": [
-        {
-          "mode": "Multiplayer",
-          "name": "Pro Multiplayer Build",
-          "attachments": {
-            "Muzzle": "Tactical Suppressor",
-            "Barrel": "OWC Ranger",
-            "Stock": "No Stock",
-            "Laser": "OWC Laser - Tactical",
-            "Magazine": "50 Round Extended Mag"
-          },
-          "perks": [
-            "Lightweight",
-            "Quick Fix",
-            "Hardline"
-          ],
-          "code": ""
-        },
-        {
-          "mode": "Battle Royale",
-          "name": "Pro Battle Royale Build",
-          "attachments": {
-            "Muzzle": "Tactical Suppressor",
-            "Barrel": "OWC Ranger",
-            "Stock": "No Stock",
-            "Laser": "OWC Laser - Tactical",
-            "Magazine": "50 Round Extended Mag"
-          },
-          "perks": [
-            "Framework",
-            "Alertness",
-            "Awareness"
-          ],
-          "code": ""
-        }
-      ]
-    },
-    {
-      "name": "EM2",
-      "class": "AR",
-      "tier": "B",
-      "loadouts": [
-        {
-          "mode": "Multiplayer",
-          "name": "Pro Multiplayer Build",
-          "attachments": {
-            "Muzzle": "Tactical Suppressor",
-            "Barrel": "OWC Ranger",
-            "Stock": "No Stock",
-            "Laser": "OWC Laser - Tactical",
-            "Magazine": "50 Round Extended Mag"
-          },
-          "perks": [
-            "Lightweight",
-            "Quick Fix",
-            "Hardline"
-          ],
-          "code": ""
-        },
-        {
-          "mode": "Battle Royale",
-          "name": "Pro Battle Royale Build",
-          "attachments": {
-            "Muzzle": "Tactical Suppressor",
-            "Barrel": "OWC Ranger",
-            "Stock": "No Stock",
-            "Laser": "OWC Laser - Tactical",
-            "Magazine": "50 Round Extended Mag"
-          },
-          "perks": [
-            "Framework",
-            "Alertness",
-            "Awareness"
-          ],
-          "code": ""
-        }
-      ]
-    },
-    {
-      "name": "Fennec",
+      "name": "VMP",
       "class": "SMG",
       "tier": "S",
       "loadouts": [
         {
           "mode": "Multiplayer",
-          "name": "Pro Multiplayer Build",
+          "name": "Aggro Melt Machine",
+          "code": "VMP-1C2E6B7E8A",
           "attachments": {
-            "Muzzle": "Monolithic Suppressor",
-            "Barrel": "MIP Extended Light Barrel",
-            "Stock": "No Stock",
+            "Muzzle": "Agency Suppressor",
+            "Barrel": "Taskforce Barrel",
+            "Stock": "SAS Combat Stock",
             "Laser": "OWC Laser - Tactical",
-            "Magazine": "Extended Mag A"
+            "Rear Grip": "Claw Grip"
           },
-          "perks": [
-            "Lightweight",
-            "Quick Fix",
-            "Hardline"
-          ],
-          "code": ""
-        },
-        {
-          "mode": "Battle Royale",
-          "name": "Pro Battle Royale Build",
-          "attachments": {
-            "Muzzle": "Monolithic Suppressor",
-            "Barrel": "MIP Extended Light Barrel",
-            "Stock": "No Stock",
-            "Laser": "OWC Laser - Tactical",
-            "Magazine": "Extended Mag A"
-          },
-          "perks": [
-            "Framework",
-            "Alertness",
-            "Awareness"
-          ],
-          "code": ""
-        }
-      ]
-    },
-    {
-      "name": "Switchblade X9",
-      "class": "SMG",
-      "tier": "S",
-      "loadouts": [
-        {
-          "mode": "Multiplayer",
-          "name": "Pro Multiplayer Build",
-          "attachments": {
-            "Muzzle": "Monolithic Suppressor",
-            "Barrel": "MIP Extended Light Barrel",
-            "Stock": "No Stock",
-            "Laser": "OWC Laser - Tactical",
-            "Magazine": "Extended Mag A"
-          },
-          "perks": [
-            "Lightweight",
-            "Quick Fix",
-            "Hardline"
-          ],
-          "code": ""
-        },
-        {
-          "mode": "Battle Royale",
-          "name": "Pro Battle Royale Build",
-          "attachments": {
-            "Muzzle": "Monolithic Suppressor",
-            "Barrel": "MIP Extended Light Barrel",
-            "Stock": "No Stock",
-            "Laser": "OWC Laser - Tactical",
-            "Magazine": "Extended Mag A"
-          },
-          "perks": [
-            "Framework",
-            "Alertness",
-            "Awareness"
-          ],
-          "code": ""
-        }
-      ]
-    },
-    {
-      "name": "CBR4",
-      "class": "SMG",
-      "tier": "A",
-      "loadouts": [
-        {
-          "mode": "Multiplayer",
-          "name": "Pro Multiplayer Build",
-          "attachments": {
-            "Muzzle": "Monolithic Suppressor",
-            "Barrel": "MIP Extended Light Barrel",
-            "Stock": "No Stock",
-            "Laser": "OWC Laser - Tactical",
-            "Magazine": "Extended Mag A"
-          },
-          "perks": [
-            "Lightweight",
-            "Quick Fix",
-            "Hardline"
-          ],
-          "code": ""
-        },
-        {
-          "mode": "Battle Royale",
-          "name": "Pro Battle Royale Build",
-          "attachments": {
-            "Muzzle": "Monolithic Suppressor",
-            "Barrel": "MIP Extended Light Barrel",
-            "Stock": "No Stock",
-            "Laser": "OWC Laser - Tactical",
-            "Magazine": "Extended Mag A"
-          },
-          "perks": [
-            "Framework",
-            "Alertness",
-            "Awareness"
-          ],
-          "code": ""
-        }
-      ]
-    },
-    {
-      "name": "CX-9",
-      "class": "SMG",
-      "tier": "A",
-      "loadouts": [
-        {
-          "mode": "Multiplayer",
-          "name": "Pro Multiplayer Build",
-          "attachments": {
-            "Muzzle": "Monolithic Suppressor",
-            "Barrel": "MIP Extended Light Barrel",
-            "Stock": "No Stock",
-            "Laser": "OWC Laser - Tactical",
-            "Magazine": "Extended Mag A"
-          },
-          "perks": [
-            "Lightweight",
-            "Quick Fix",
-            "Hardline"
-          ],
-          "code": ""
-        },
-        {
-          "mode": "Battle Royale",
-          "name": "Pro Battle Royale Build",
-          "attachments": {
-            "Muzzle": "Monolithic Suppressor",
-            "Barrel": "MIP Extended Light Barrel",
-            "Stock": "No Stock",
-            "Laser": "OWC Laser - Tactical",
-            "Magazine": "Extended Mag A"
-          },
-          "perks": [
-            "Framework",
-            "Alertness",
-            "Awareness"
-          ],
-          "code": ""
-        }
-      ]
-    },
-    {
-      "name": "TEC-9",
-      "class": "SMG",
-      "tier": "A",
-      "loadouts": [
-        {
-          "mode": "Multiplayer",
-          "name": "Pro Multiplayer Build",
-          "attachments": {
-            "Muzzle": "Monolithic Suppressor",
-            "Barrel": "MIP Extended Light Barrel",
-            "Stock": "No Stock",
-            "Laser": "OWC Laser - Tactical",
-            "Magazine": "Extended Mag A"
-          },
-          "perks": [
-            "Lightweight",
-            "Quick Fix",
-            "Hardline"
-          ],
-          "code": ""
-        },
-        {
-          "mode": "Battle Royale",
-          "name": "Pro Battle Royale Build",
-          "attachments": {
-            "Muzzle": "Monolithic Suppressor",
-            "Barrel": "MIP Extended Light Barrel",
-            "Stock": "No Stock",
-            "Laser": "OWC Laser - Tactical",
-            "Magazine": "Extended Mag A"
-          },
-          "perks": [
-            "Framework",
-            "Alertness",
-            "Awareness"
-          ],
-          "code": ""
-        }
-      ]
-    },
-    {
-      "name": "PP19 Bizon",
-      "class": "SMG",
-      "tier": "A",
-      "loadouts": [
-        {
-          "mode": "Multiplayer",
-          "name": "Pro Multiplayer Build",
-          "attachments": {
-            "Muzzle": "Monolithic Suppressor",
-            "Barrel": "MIP Extended Light Barrel",
-            "Stock": "No Stock",
-            "Laser": "OWC Laser - Tactical",
-            "Magazine": "Extended Mag A"
-          },
-          "perks": [
-            "Lightweight",
-            "Quick Fix",
-            "Hardline"
-          ],
-          "code": ""
-        },
-        {
-          "mode": "Battle Royale",
-          "name": "Pro Battle Royale Build",
-          "attachments": {
-            "Muzzle": "Monolithic Suppressor",
-            "Barrel": "MIP Extended Light Barrel",
-            "Stock": "No Stock",
-            "Laser": "OWC Laser - Tactical",
-            "Magazine": "Extended Mag A"
-          },
-          "perks": [
-            "Framework",
-            "Alertness",
-            "Awareness"
-          ],
-          "code": ""
-        }
-      ]
-    },
-    {
-      "name": "QQ9",
-      "class": "SMG",
-      "tier": "B",
-      "loadouts": [
-        {
-          "mode": "Multiplayer",
-          "name": "Pro Multiplayer Build",
-          "attachments": {
-            "Muzzle": "Monolithic Suppressor",
-            "Barrel": "MIP Extended Light Barrel",
-            "Stock": "No Stock",
-            "Laser": "OWC Laser - Tactical",
-            "Magazine": "Extended Mag A"
-          },
-          "perks": [
-            "Lightweight",
-            "Quick Fix",
-            "Hardline"
-          ],
-          "code": ""
-        },
-        {
-          "mode": "Battle Royale",
-          "name": "Pro Battle Royale Build",
-          "attachments": {
-            "Muzzle": "Monolithic Suppressor",
-            "Barrel": "MIP Extended Light Barrel",
-            "Stock": "No Stock",
-            "Laser": "OWC Laser - Tactical",
-            "Magazine": "Extended Mag A"
-          },
-          "perks": [
-            "Framework",
-            "Alertness",
-            "Awareness"
-          ],
-          "code": ""
-        }
-      ]
-    },
-    {
-      "name": "RUS-79U",
-      "class": "SMG",
-      "tier": "B",
-      "loadouts": [
-        {
-          "mode": "Multiplayer",
-          "name": "Pro Multiplayer Build",
-          "attachments": {
-            "Muzzle": "Monolithic Suppressor",
-            "Barrel": "MIP Extended Light Barrel",
-            "Stock": "No Stock",
-            "Laser": "OWC Laser - Tactical",
-            "Magazine": "Extended Mag A"
-          },
-          "perks": [
-            "Lightweight",
-            "Quick Fix",
-            "Hardline"
-          ],
-          "code": ""
-        },
-        {
-          "mode": "Battle Royale",
-          "name": "Pro Battle Royale Build",
-          "attachments": {
-            "Muzzle": "Monolithic Suppressor",
-            "Barrel": "MIP Extended Light Barrel",
-            "Stock": "No Stock",
-            "Laser": "OWC Laser - Tactical",
-            "Magazine": "Extended Mag A"
-          },
-          "perks": [
-            "Framework",
-            "Alertness",
-            "Awareness"
-          ],
-          "code": ""
+          "perks": ["Lightweight", "Quick Fix", "Dead Silence"]
         }
       ]
     },
@@ -745,201 +88,16 @@
       "loadouts": [
         {
           "mode": "Multiplayer",
-          "name": "Pro Multiplayer Build",
+          "name": "Area Denial",
+          "code": "MG42-4D6F8H0J2",
           "attachments": {
-            "Muzzle": "Recoil Booster",
-            "Barrel": "Heavy Barrel",
-            "Stock": "Steady Stock",
-            "Laser": "Aim Assist Laser",
-            "Magazine": "Large Magazine"
+            "Muzzle": "Monolithic Suppressor",
+            "Barrel": "MIP Light Barrel",
+            "Stock": "No Stock",
+            "Laser": "OWC Laser - Tactical",
+            "Magazine": "100 Round Mag"
           },
-          "perks": [
-            "Lightweight",
-            "Quick Fix",
-            "Hardline"
-          ],
-          "code": ""
-        },
-        {
-          "mode": "Battle Royale",
-          "name": "Pro Battle Royale Build",
-          "attachments": {
-            "Muzzle": "Recoil Booster",
-            "Barrel": "Heavy Barrel",
-            "Stock": "Steady Stock",
-            "Laser": "Aim Assist Laser",
-            "Magazine": "Large Magazine"
-          },
-          "perks": [
-            "Framework",
-            "Alertness",
-            "Awareness"
-          ],
-          "code": ""
-        }
-      ]
-    },
-    {
-      "name": "Holger 26",
-      "class": "LMG",
-      "tier": "A",
-      "loadouts": [
-        {
-          "mode": "Multiplayer",
-          "name": "Pro Multiplayer Build",
-          "attachments": {
-            "Muzzle": "Recoil Booster",
-            "Barrel": "Heavy Barrel",
-            "Stock": "Steady Stock",
-            "Laser": "Aim Assist Laser",
-            "Magazine": "Large Magazine"
-          },
-          "perks": [
-            "Lightweight",
-            "Quick Fix",
-            "Hardline"
-          ],
-          "code": ""
-        },
-        {
-          "mode": "Battle Royale",
-          "name": "Pro Battle Royale Build",
-          "attachments": {
-            "Muzzle": "Recoil Booster",
-            "Barrel": "Heavy Barrel",
-            "Stock": "Steady Stock",
-            "Laser": "Aim Assist Laser",
-            "Magazine": "Large Magazine"
-          },
-          "perks": [
-            "Framework",
-            "Alertness",
-            "Awareness"
-          ],
-          "code": ""
-        }
-      ]
-    },
-    {
-      "name": "UL736",
-      "class": "LMG",
-      "tier": "A",
-      "loadouts": [
-        {
-          "mode": "Multiplayer",
-          "name": "Pro Multiplayer Build",
-          "attachments": {
-            "Muzzle": "Recoil Booster",
-            "Barrel": "Heavy Barrel",
-            "Stock": "Steady Stock",
-            "Laser": "Aim Assist Laser",
-            "Magazine": "Large Magazine"
-          },
-          "perks": [
-            "Lightweight",
-            "Quick Fix",
-            "Hardline"
-          ],
-          "code": ""
-        },
-        {
-          "mode": "Battle Royale",
-          "name": "Pro Battle Royale Build",
-          "attachments": {
-            "Muzzle": "Recoil Booster",
-            "Barrel": "Heavy Barrel",
-            "Stock": "Steady Stock",
-            "Laser": "Aim Assist Laser",
-            "Magazine": "Large Magazine"
-          },
-          "perks": [
-            "Framework",
-            "Alertness",
-            "Awareness"
-          ],
-          "code": ""
-        }
-      ]
-    },
-    {
-      "name": "Chopper",
-      "class": "LMG",
-      "tier": "B",
-      "loadouts": [
-        {
-          "mode": "Multiplayer",
-          "name": "Pro Multiplayer Build",
-          "attachments": {
-            "Muzzle": "Recoil Booster",
-            "Barrel": "Heavy Barrel",
-            "Stock": "Steady Stock",
-            "Laser": "Aim Assist Laser",
-            "Magazine": "Large Magazine"
-          },
-          "perks": [
-            "Lightweight",
-            "Quick Fix",
-            "Hardline"
-          ],
-          "code": ""
-        },
-        {
-          "mode": "Battle Royale",
-          "name": "Pro Battle Royale Build",
-          "attachments": {
-            "Muzzle": "Recoil Booster",
-            "Barrel": "Heavy Barrel",
-            "Stock": "Steady Stock",
-            "Laser": "Aim Assist Laser",
-            "Magazine": "Large Magazine"
-          },
-          "perks": [
-            "Framework",
-            "Alertness",
-            "Awareness"
-          ],
-          "code": ""
-        }
-      ]
-    },
-    {
-      "name": "RPD",
-      "class": "LMG",
-      "tier": "B",
-      "loadouts": [
-        {
-          "mode": "Multiplayer",
-          "name": "Pro Multiplayer Build",
-          "attachments": {
-            "Muzzle": "Recoil Booster",
-            "Barrel": "Heavy Barrel",
-            "Stock": "Steady Stock",
-            "Laser": "Aim Assist Laser",
-            "Magazine": "Large Magazine"
-          },
-          "perks": [
-            "Lightweight",
-            "Quick Fix",
-            "Hardline"
-          ],
-          "code": ""
-        },
-        {
-          "mode": "Battle Royale",
-          "name": "Pro Battle Royale Build",
-          "attachments": {
-            "Muzzle": "Recoil Booster",
-            "Barrel": "Heavy Barrel",
-            "Stock": "Steady Stock",
-            "Laser": "Aim Assist Laser",
-            "Magazine": "Large Magazine"
-          },
-          "perks": [
-            "Framework",
-            "Alertness",
-            "Awareness"
-          ],
-          "code": ""
+          "perks": ["Lightweight", "Quick Fix", "Dead Silence"]
         }
       ]
     },
@@ -950,37 +108,16 @@
       "loadouts": [
         {
           "mode": "Multiplayer",
-          "name": "Pro Multiplayer Build",
+          "name": "Quick Scope King",
+          "code": "TUNDRA-5G7I9K1M3",
           "attachments": {
-            "Muzzle": "Tactical Suppressor",
-            "Barrel": "MIP Light Barrel",
-            "Stock": "Combat Stock",
-            "Rear Grip": "Stippled Grip Tape",
-            "Magazine": "Fast Reload Mag"
+            "Muzzle": "Monolithic Suppressor",
+            "Barrel": "LW3-Tundra Barrel",
+            "Stock": "LW3-Tundra Stock",
+            "Laser": "OWC Laser - Tactical",
+            "Magazine": "7 Round Extended Mag"
           },
-          "perks": [
-            "Lightweight",
-            "Quick Fix",
-            "Hardline"
-          ],
-          "code": ""
-        },
-        {
-          "mode": "Battle Royale",
-          "name": "Pro Battle Royale Build",
-          "attachments": {
-            "Muzzle": "Tactical Suppressor",
-            "Barrel": "MIP Light Barrel",
-            "Stock": "Combat Stock",
-            "Rear Grip": "Stippled Grip Tape",
-            "Magazine": "Fast Reload Mag"
-          },
-          "perks": [
-            "Framework",
-            "Alertness",
-            "Awareness"
-          ],
-          "code": ""
+          "perks": ["Lightweight", "Toughness", "Dead Silence"]
         }
       ]
     },
@@ -991,201 +128,16 @@
       "loadouts": [
         {
           "mode": "Multiplayer",
-          "name": "Pro Multiplayer Build",
+          "name": "Classic One-Shot",
+          "code": "DLQ33-2A4C6E8G0",
           "attachments": {
-            "Muzzle": "Tactical Suppressor",
+            "Muzzle": "Monolithic Suppressor",
             "Barrel": "MIP Light Barrel",
-            "Stock": "Combat Stock",
-            "Rear Grip": "Stippled Grip Tape",
-            "Magazine": "Fast Reload Mag"
+            "Stock": "YKM Combat Stock",
+            "Laser": "OWC Laser - Tactical",
+            "Magazine": "Extended Mag A"
           },
-          "perks": [
-            "Lightweight",
-            "Quick Fix",
-            "Hardline"
-          ],
-          "code": ""
-        },
-        {
-          "mode": "Battle Royale",
-          "name": "Pro Battle Royale Build",
-          "attachments": {
-            "Muzzle": "Tactical Suppressor",
-            "Barrel": "MIP Light Barrel",
-            "Stock": "Combat Stock",
-            "Rear Grip": "Stippled Grip Tape",
-            "Magazine": "Fast Reload Mag"
-          },
-          "perks": [
-            "Framework",
-            "Alertness",
-            "Awareness"
-          ],
-          "code": ""
-        }
-      ]
-    },
-    {
-      "name": "Locus",
-      "class": "Sniper",
-      "tier": "A",
-      "loadouts": [
-        {
-          "mode": "Multiplayer",
-          "name": "Pro Multiplayer Build",
-          "attachments": {
-            "Muzzle": "Tactical Suppressor",
-            "Barrel": "MIP Light Barrel",
-            "Stock": "Combat Stock",
-            "Rear Grip": "Stippled Grip Tape",
-            "Magazine": "Fast Reload Mag"
-          },
-          "perks": [
-            "Lightweight",
-            "Quick Fix",
-            "Hardline"
-          ],
-          "code": ""
-        },
-        {
-          "mode": "Battle Royale",
-          "name": "Pro Battle Royale Build",
-          "attachments": {
-            "Muzzle": "Tactical Suppressor",
-            "Barrel": "MIP Light Barrel",
-            "Stock": "Combat Stock",
-            "Rear Grip": "Stippled Grip Tape",
-            "Magazine": "Fast Reload Mag"
-          },
-          "perks": [
-            "Framework",
-            "Alertness",
-            "Awareness"
-          ],
-          "code": ""
-        }
-      ]
-    },
-    {
-      "name": "Koshka",
-      "class": "Sniper",
-      "tier": "A",
-      "loadouts": [
-        {
-          "mode": "Multiplayer",
-          "name": "Pro Multiplayer Build",
-          "attachments": {
-            "Muzzle": "Tactical Suppressor",
-            "Barrel": "MIP Light Barrel",
-            "Stock": "Combat Stock",
-            "Rear Grip": "Stippled Grip Tape",
-            "Magazine": "Fast Reload Mag"
-          },
-          "perks": [
-            "Lightweight",
-            "Quick Fix",
-            "Hardline"
-          ],
-          "code": ""
-        },
-        {
-          "mode": "Battle Royale",
-          "name": "Pro Battle Royale Build",
-          "attachments": {
-            "Muzzle": "Tactical Suppressor",
-            "Barrel": "MIP Light Barrel",
-            "Stock": "Combat Stock",
-            "Rear Grip": "Stippled Grip Tape",
-            "Magazine": "Fast Reload Mag"
-          },
-          "perks": [
-            "Framework",
-            "Alertness",
-            "Awareness"
-          ],
-          "code": ""
-        }
-      ]
-    },
-    {
-      "name": "HDR",
-      "class": "Sniper",
-      "tier": "B",
-      "loadouts": [
-        {
-          "mode": "Multiplayer",
-          "name": "Pro Multiplayer Build",
-          "attachments": {
-            "Muzzle": "Tactical Suppressor",
-            "Barrel": "MIP Light Barrel",
-            "Stock": "Combat Stock",
-            "Rear Grip": "Stippled Grip Tape",
-            "Magazine": "Fast Reload Mag"
-          },
-          "perks": [
-            "Lightweight",
-            "Quick Fix",
-            "Hardline"
-          ],
-          "code": ""
-        },
-        {
-          "mode": "Battle Royale",
-          "name": "Pro Battle Royale Build",
-          "attachments": {
-            "Muzzle": "Tactical Suppressor",
-            "Barrel": "MIP Light Barrel",
-            "Stock": "Combat Stock",
-            "Rear Grip": "Stippled Grip Tape",
-            "Magazine": "Fast Reload Mag"
-          },
-          "perks": [
-            "Framework",
-            "Alertness",
-            "Awareness"
-          ],
-          "code": ""
-        }
-      ]
-    },
-    {
-      "name": "XPR-50",
-      "class": "Sniper",
-      "tier": "B",
-      "loadouts": [
-        {
-          "mode": "Multiplayer",
-          "name": "Pro Multiplayer Build",
-          "attachments": {
-            "Muzzle": "Tactical Suppressor",
-            "Barrel": "MIP Light Barrel",
-            "Stock": "Combat Stock",
-            "Rear Grip": "Stippled Grip Tape",
-            "Magazine": "Fast Reload Mag"
-          },
-          "perks": [
-            "Lightweight",
-            "Quick Fix",
-            "Hardline"
-          ],
-          "code": ""
-        },
-        {
-          "mode": "Battle Royale",
-          "name": "Pro Battle Royale Build",
-          "attachments": {
-            "Muzzle": "Tactical Suppressor",
-            "Barrel": "MIP Light Barrel",
-            "Stock": "Combat Stock",
-            "Rear Grip": "Stippled Grip Tape",
-            "Magazine": "Fast Reload Mag"
-          },
-          "perks": [
-            "Framework",
-            "Alertness",
-            "Awareness"
-          ],
-          "code": ""
+          "perks": ["Lightweight", "Toughness", "Dead Silence"]
         }
       ]
     },
@@ -1196,368 +148,58 @@
       "loadouts": [
         {
           "mode": "Multiplayer",
-          "name": "Pro Multiplayer Build",
+          "name": "Precision Two-Tap",
+          "code": "SKS-8H0J2L4N6",
           "attachments": {
             "Muzzle": "Monolithic Suppressor",
-            "Barrel": "Light Barrel",
-            "Stock": "No Stock",
-            "Underbarrel": "Tactical Foregrip",
-            "Optic": "3x Tactical Scope"
+            "Barrel": "MIP Light Barrel",
+            "Stock": "MIP Strike Stock",
+            "Laser": "OWC Laser - Tactical",
+            "Underbarrel": "Operator Foregrip"
           },
-          "perks": [
-            "Lightweight",
-            "Quick Fix",
-            "Hardline"
-          ],
-          "code": ""
-        },
-        {
-          "mode": "Battle Royale",
-          "name": "Pro Battle Royale Build",
-          "attachments": {
-            "Muzzle": "Monolithic Suppressor",
-            "Barrel": "Light Barrel",
-            "Stock": "No Stock",
-            "Underbarrel": "Tactical Foregrip",
-            "Optic": "3x Tactical Scope"
-          },
-          "perks": [
-            "Framework",
-            "Alertness",
-            "Awareness"
-          ],
-          "code": ""
+          "perks": ["Lightweight", "Toughness", "Dead Silence"]
         }
       ]
     },
     {
-      "name": "Kilo Bolt-Action",
-      "class": "Marksman",
-      "tier": "B",
-      "loadouts": [
-        {
-          "mode": "Multiplayer",
-          "name": "Pro Multiplayer Build",
-          "attachments": {
-            "Muzzle": "Monolithic Suppressor",
-            "Barrel": "Light Barrel",
-            "Stock": "No Stock",
-            "Underbarrel": "Tactical Foregrip",
-            "Optic": "3x Tactical Scope"
-          },
-          "perks": [
-            "Lightweight",
-            "Quick Fix",
-            "Hardline"
-          ],
-          "code": ""
-        },
-        {
-          "mode": "Battle Royale",
-          "name": "Pro Battle Royale Build",
-          "attachments": {
-            "Muzzle": "Monolithic Suppressor",
-            "Barrel": "Light Barrel",
-            "Stock": "No Stock",
-            "Underbarrel": "Tactical Foregrip",
-            "Optic": "3x Tactical Scope"
-          },
-          "perks": [
-            "Framework",
-            "Alertness",
-            "Awareness"
-          ],
-          "code": ""
-        }
-      ]
-    },
-    {
-      "name": "R9-0",
-      "class": "Shotgun",
+      "name": "Holger 26",
+      "class": "LMG",
       "tier": "S",
       "loadouts": [
         {
           "mode": "Multiplayer",
-          "name": "Pro Multiplayer Build",
+          "name": "100 Round Laser",
+          "code": "HOLGER-6I8K0M2O4",
           "attachments": {
-            "Muzzle": "Choke",
-            "Barrel": "Extended Barrel",
-            "Laser": "MIP Laser 5mW",
-            "Underbarrel": "Merc Foregrip",
-            "Rear Grip": "Granulated Grip Tape"
+            "Muzzle": "Monolithic Suppressor",
+            "Barrel": "MIP Light Barrel",
+            "Stock": "No Stock",
+            "Laser": "OWC Laser - Tactical",
+            "Magazine": "100 Round Mag"
           },
-          "perks": [
-            "Lightweight",
-            "Quick Fix",
-            "Hardline"
-          ],
-          "code": ""
-        },
-        {
-          "mode": "Battle Royale",
-          "name": "Pro Battle Royale Build",
-          "attachments": {
-            "Muzzle": "Choke",
-            "Barrel": "Extended Barrel",
-            "Laser": "MIP Laser 5mW",
-            "Underbarrel": "Merc Foregrip",
-            "Rear Grip": "Granulated Grip Tape"
-          },
-          "perks": [
-            "Framework",
-            "Alertness",
-            "Awareness"
-          ],
-          "code": ""
+          "perks": ["Lightweight", "Quick Fix", "Dead Silence"]
         }
       ]
     },
     {
-      "name": "KRM-262",
-      "class": "Shotgun",
+      "name": "BP50",
+      "class": "AR",
       "tier": "A",
       "loadouts": [
         {
           "mode": "Multiplayer",
-          "name": "Pro Multiplayer Build",
+          "name": "All-Rounder AR",
+          "code": "BP50-9K1M3O5Q7",
           "attachments": {
-            "Muzzle": "Choke",
-            "Barrel": "Extended Barrel",
-            "Laser": "MIP Laser 5mW",
-            "Underbarrel": "Merc Foregrip",
-            "Rear Grip": "Granulated Grip Tape"
+            "Muzzle": "Monolithic Suppressor",
+            "Barrel": "Leroy 438mm",
+            "Stock": "Leroy Custom",
+            "Laser": "OWC Laser - Tactical",
+            "Magazine": "60 Round Mag"
           },
-          "perks": [
-            "Lightweight",
-            "Quick Fix",
-            "Hardline"
-          ],
-          "code": ""
-        },
-        {
-          "mode": "Battle Royale",
-          "name": "Pro Battle Royale Build",
-          "attachments": {
-            "Muzzle": "Choke",
-            "Barrel": "Extended Barrel",
-            "Laser": "MIP Laser 5mW",
-            "Underbarrel": "Merc Foregrip",
-            "Rear Grip": "Granulated Grip Tape"
-          },
-          "perks": [
-            "Framework",
-            "Alertness",
-            "Awareness"
-          ],
-          "code": ""
-        }
-      ]
-    },
-    {
-      "name": "BY15",
-      "class": "Shotgun",
-      "tier": "A",
-      "loadouts": [
-        {
-          "mode": "Multiplayer",
-          "name": "Pro Multiplayer Build",
-          "attachments": {
-            "Muzzle": "Choke",
-            "Barrel": "Extended Barrel",
-            "Laser": "MIP Laser 5mW",
-            "Underbarrel": "Merc Foregrip",
-            "Rear Grip": "Granulated Grip Tape"
-          },
-          "perks": [
-            "Lightweight",
-            "Quick Fix",
-            "Hardline"
-          ],
-          "code": ""
-        },
-        {
-          "mode": "Battle Royale",
-          "name": "Pro Battle Royale Build",
-          "attachments": {
-            "Muzzle": "Choke",
-            "Barrel": "Extended Barrel",
-            "Laser": "MIP Laser 5mW",
-            "Underbarrel": "Merc Foregrip",
-            "Rear Grip": "Granulated Grip Tape"
-          },
-          "perks": [
-            "Framework",
-            "Alertness",
-            "Awareness"
-          ],
-          "code": ""
-        }
-      ]
-    },
-    {
-      "name": "JAK-12",
-      "class": "Shotgun",
-      "tier": "B",
-      "loadouts": [
-        {
-          "mode": "Multiplayer",
-          "name": "Pro Multiplayer Build",
-          "attachments": {
-            "Muzzle": "Choke",
-            "Barrel": "Extended Barrel",
-            "Laser": "MIP Laser 5mW",
-            "Underbarrel": "Merc Foregrip",
-            "Rear Grip": "Granulated Grip Tape"
-          },
-          "perks": [
-            "Lightweight",
-            "Quick Fix",
-            "Hardline"
-          ],
-          "code": ""
-        },
-        {
-          "mode": "Battle Royale",
-          "name": "Pro Battle Royale Build",
-          "attachments": {
-            "Muzzle": "Choke",
-            "Barrel": "Extended Barrel",
-            "Laser": "MIP Laser 5mW",
-            "Underbarrel": "Merc Foregrip",
-            "Rear Grip": "Granulated Grip Tape"
-          },
-          "perks": [
-            "Framework",
-            "Alertness",
-            "Awareness"
-          ],
-          "code": ""
-        }
-      ]
-    },
-    {
-      "name": "L-CAR 9",
-      "class": "Pistol",
-      "tier": "S",
-      "loadouts": [
-        {
-          "mode": "Multiplayer",
-          "name": "Pro Multiplayer Build",
-          "attachments": {
-            "Muzzle": "Agency Suppressor",
-            "Barrel": "Extended Barrel",
-            "Trigger": "Lightweight Trigger",
-            "Laser": "5mW Laser",
-            "Magazine": "Extended Mag"
-          },
-          "perks": [
-            "Lightweight",
-            "Quick Fix",
-            "Hardline"
-          ],
-          "code": ""
-        },
-        {
-          "mode": "Battle Royale",
-          "name": "Pro Battle Royale Build",
-          "attachments": {
-            "Muzzle": "Agency Suppressor",
-            "Barrel": "Extended Barrel",
-            "Trigger": "Lightweight Trigger",
-            "Laser": "5mW Laser",
-            "Magazine": "Extended Mag"
-          },
-          "perks": [
-            "Framework",
-            "Alertness",
-            "Awareness"
-          ],
-          "code": ""
-        }
-      ]
-    },
-    {
-      "name": "Dobvra",
-      "class": "Pistol",
-      "tier": "A",
-      "loadouts": [
-        {
-          "mode": "Multiplayer",
-          "name": "Pro Multiplayer Build",
-          "attachments": {
-            "Muzzle": "Agency Suppressor",
-            "Barrel": "Extended Barrel",
-            "Trigger": "Lightweight Trigger",
-            "Laser": "5mW Laser",
-            "Magazine": "Extended Mag"
-          },
-          "perks": [
-            "Lightweight",
-            "Quick Fix",
-            "Hardline"
-          ],
-          "code": ""
-        },
-        {
-          "mode": "Battle Royale",
-          "name": "Pro Battle Royale Build",
-          "attachments": {
-            "Muzzle": "Agency Suppressor",
-            "Barrel": "Extended Barrel",
-            "Trigger": "Lightweight Trigger",
-            "Laser": "5mW Laser",
-            "Magazine": "Extended Mag"
-          },
-          "perks": [
-            "Framework",
-            "Alertness",
-            "Awareness"
-          ],
-          "code": ""
-        }
-      ]
-    },
-    {
-      "name": ".50 GS",
-      "class": "Pistol",
-      "tier": "A",
-      "loadouts": [
-        {
-          "mode": "Multiplayer",
-          "name": "Pro Multiplayer Build",
-          "attachments": {
-            "Muzzle": "Agency Suppressor",
-            "Barrel": "Extended Barrel",
-            "Trigger": "Lightweight Trigger",
-            "Laser": "5mW Laser",
-            "Magazine": "Extended Mag"
-          },
-          "perks": [
-            "Lightweight",
-            "Quick Fix",
-            "Hardline"
-          ],
-          "code": ""
-        },
-        {
-          "mode": "Battle Royale",
-          "name": "Pro Battle Royale Build",
-          "attachments": {
-            "Muzzle": "Agency Suppressor",
-            "Barrel": "Extended Barrel",
-            "Trigger": "Lightweight Trigger",
-            "Laser": "5mW Laser",
-            "Magazine": "Extended Mag"
-          },
-          "perks": [
-            "Framework",
-            "Alertness",
-            "Awareness"
-          ],
-          "code": ""
+          "perks": ["Lightweight", "Quick Fix", "Dead Silence"]
         }
       ]
     }
-  ],
-  "last_updated": "2026-08-07T09:43:03Z"
+  ]
 }

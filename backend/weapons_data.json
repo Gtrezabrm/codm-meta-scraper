@@ -9,26 +9,12 @@
         {
           "mode": "Multiplayer",
           "name": "Zero Recoil Rusher",
-          "code": "USS9-7A2B4C8D1E",
           "attachments": {
             "Muzzle": "Monolithic Suppressor",
             "Barrel": "MIP Extended Light Barrel",
             "Stock": "No Stock",
             "Laser": "OWC Laser - Tactical",
             "Magazine": "50 Round Extended Mag"
-          },
-          "perks": ["Lightweight", "Quick Fix", "Dead Silence"]
-        },
-        {
-          "mode": "Battle Royale",
-          "name": "BR All-Rounder SMG",
-          "code": "USS9-9F3G7H2J5K",
-          "attachments": {
-            "Muzzle": "Monolithic Suppressor",
-            "Barrel": "OWC Marksman",
-            "Stock": "No Stock",
-            "Laser": "OWC Laser - Tactical",
-            "Magazine": "Large Extended Mag B"
           },
           "perks": ["Lightweight", "Quick Fix", "Dead Silence"]
         }
@@ -42,7 +28,6 @@
         {
           "mode": "Multiplayer",
           "name": "Two-Tap Dominator",
-          "code": "ODEN-3X5Y7Z9W2",
           "attachments": {
             "Muzzle": "Monolithic Suppressor",
             "Barrel": "Oden Colossus Suppressor",
@@ -51,19 +36,6 @@
             "Underbarrel": "Operator Foregrip"
           },
           "perks": ["Lightweight", "Toughness", "Dead Silence"]
-        },
-        {
-          "mode": "Battle Royale",
-          "name": "BR Long-Range Anchor",
-          "code": "ODEN-4P6R8T0U1V",
-          "attachments": {
-            "Muzzle": "Colossus Suppressor",
-            "Barrel": "OWC Marksman",
-            "Stock": "Ranger Foregrip",
-            "Laser": "OWC Laser - Tactical",
-            "Magazine": "30 Round Extended Mag"
-          },
-          "perks": ["FMJ", "Toughness", "High Alert"]
         }
       ]
     },
@@ -75,7 +47,6 @@
         {
           "mode": "Multiplayer",
           "name": "Versatile 3-Tap",
-          "code": "DRH-1B3C5D7E9F",
           "attachments": {
             "Muzzle": "Monolithic Suppressor",
             "Barrel": "MIP Custom Long Barrel",
@@ -84,72 +55,6 @@
             "Magazine": "25 Round OTM Mag"
           },
           "perks": ["Lightweight", "Quick Fix", "Dead Silence"]
-        },
-        {
-          "mode": "Battle Royale",
-          "name": "BR Mid-Range Flex",
-          "code": "DRH-2C4D6E8F0G",
-          "attachments": {
-            "Muzzle": "Monolithic Suppressor",
-            "Barrel": "OWC Marksman",
-            "Stock": "Ranger Foregrip",
-            "Laser": "OWC Laser - Tactical",
-            "Magazine": "30 Round Extended Mag"
-          },
-          "perks": ["FMJ", "Quick Fix", "High Alert"]
-        }
-      ]
-    },
-    {
-      "name": "AK117",
-      "class": "AR",
-      "tier": "S",
-      "loadouts": [
-        {
-          "mode": "Battle Royale",
-          "name": "BR Versatile Laser",
-          "code": "AK117-5H7J9L1N3P",
-          "attachments": {
-            "Muzzle": "Monolithic Suppressor",
-            "Barrel": "MIP Extended Light Barrel",
-            "Stock": "No Stock",
-            "Laser": "OWC Laser - Tactical",
-            "Magazine": "48 Round Extended Mag"
-          },
-          "perks": ["Agile", "Toughness", "High Alert"]
-        }
-      ]
-    },
-    {
-      "name": "BP50",
-      "class": "AR",
-      "tier": "A",
-      "loadouts": [
-        {
-          "mode": "Multiplayer",
-          "name": "All-Rounder AR",
-          "code": "BP50-9K1M3O5Q7",
-          "attachments": {
-            "Muzzle": "Monolithic Suppressor",
-            "Barrel": "Leroy 438mm",
-            "Stock": "Leroy Custom",
-            "Laser": "OWC Laser - Tactical",
-            "Magazine": "60 Round Mag"
-          },
-          "perks": ["Lightweight", "Quick Fix", "Dead Silence"]
-        },
-        {
-          "mode": "Battle Royale",
-          "name": "BR Mobility AR",
-          "code": "BP50-8J2L4N6P8R",
-          "attachments": {
-            "Muzzle": "Monolithic Suppressor",
-            "Barrel": "MIP Extended Light Barrel",
-            "Stock": "No Stock",
-            "Laser": "OWC Laser - Tactical",
-            "Magazine": "45 Round Extended Mag"
-          },
-          "perks": ["Agile", "Gung-Ho", "Alert"]
         }
       ]
     },
@@ -161,7 +66,6 @@
         {
           "mode": "Multiplayer",
           "name": "Aggro Melt Machine",
-          "code": "VMP-1C2E6B7E8A",
           "attachments": {
             "Muzzle": "Agency Suppressor",
             "Barrel": "Taskforce Barrel",
@@ -176,12 +80,11 @@
     {
       "name": "MG42",
       "class": "LMG",
-      "tier": "S",
+      "tier": "A",
       "loadouts": [
         {
           "mode": "Multiplayer",
           "name": "Area Denial",
-          "code": "MG42-4D6F8H0J2",
           "attachments": {
             "Muzzle": "Monolithic Suppressor",
             "Barrel": "MIP Light Barrel",
@@ -201,7 +104,6 @@
         {
           "mode": "Multiplayer",
           "name": "100 Round Laser",
-          "code": "HOLGER-6I8K0M2O4",
           "attachments": {
             "Muzzle": "Monolithic Suppressor",
             "Barrel": "MIP Light Barrel",
@@ -210,19 +112,6 @@
             "Magazine": "100 Round Mag"
           },
           "perks": ["Lightweight", "Quick Fix", "Dead Silence"]
-        },
-        {
-          "mode": "Battle Royale",
-          "name": "BR Sustained Fire",
-          "code": "HOLGER-7J9L1N3P5R",
-          "attachments": {
-            "Muzzle": "Monolithic Suppressor",
-            "Barrel": "MIP Light Barrel",
-            "Stock": "YKM Combat Stock",
-            "Laser": "OWC Laser - Tactical",
-            "Optic": "Red Dot Sight"
-          },
-          "perks": ["Lightweight", "Toughness", "Dead Silence"]
         }
       ]
     },
@@ -234,7 +123,6 @@
         {
           "mode": "Multiplayer",
           "name": "Quick Scope King",
-          "code": "TUNDRA-5G7I9K1M3",
           "attachments": {
             "Muzzle": "Monolithic Suppressor",
             "Barrel": "LW3-Tundra Barrel",
@@ -254,26 +142,12 @@
         {
           "mode": "Multiplayer",
           "name": "Classic One-Shot",
-          "code": "DLQ33-2A4C6E8G0",
           "attachments": {
             "Muzzle": "Monolithic Suppressor",
             "Barrel": "MIP Light Barrel",
             "Stock": "YKM Combat Stock",
             "Laser": "OWC Laser - Tactical",
             "Magazine": "Extended Mag A"
-          },
-          "perks": ["Lightweight", "Toughness", "Dead Silence"]
-        },
-        {
-          "mode": "Battle Royale",
-          "name": "BR Sniper Build",
-          "code": "DLQ33-3B5D7F9H1",
-          "attachments": {
-            "Muzzle": "Monolithic Suppressor",
-            "Barrel": "MIP Light Barrel",
-            "Stock": "YKM Combat Stock",
-            "Laser": "OWC Laser - Tactical",
-            "Optic": "6x Tactical Scope"
           },
           "perks": ["Lightweight", "Toughness", "Dead Silence"]
         }
@@ -287,7 +161,6 @@
         {
           "mode": "Multiplayer",
           "name": "Precision Two-Tap",
-          "code": "SKS-8H0J2L4N6",
           "attachments": {
             "Muzzle": "Monolithic Suppressor",
             "Barrel": "MIP Light Barrel",
@@ -307,7 +180,6 @@
         {
           "mode": "Multiplayer",
           "name": "Quick Two-Tap",
-          "code": "R90-4D6F8H0J2",
           "attachments": {
             "Muzzle": "Monolithic Suppressor",
             "Barrel": "R9-0 Barrel",
@@ -322,12 +194,11 @@
     {
       "name": "KRM-262",
       "class": "Shotgun",
-      "tier": "S",
+      "tier": "A",
       "loadouts": [
         {
           "mode": "Multiplayer",
           "name": "One-Shot Demon",
-          "code": "KRM-5E7G9I1K3",
           "attachments": {
             "Muzzle": "Monolithic Suppressor",
             "Barrel": "MIP Extended Light Barrel",
@@ -336,11 +207,36 @@
             "Underbarrel": "Merc Foregrip"
           },
           "perks": ["Lightweight", "Quick Fix", "Dead Silence"]
-        },
+        }
+      ]
+    },
+    {
+      "name": "BP50",
+      "class": "AR",
+      "tier": "A",
+      "loadouts": [
         {
-          "mode": "Battle Royale",
-          "name": "BR Building Clearer",
-          "code": "KRM-6F8H0J2L4",
+          "mode": "Multiplayer",
+          "name": "All-Rounder AR",
+          "attachments": {
+            "Muzzle": "Monolithic Suppressor",
+            "Barrel": "Leroy 438mm",
+            "Stock": "Leroy Custom",
+            "Laser": "OWC Laser - Tactical",
+            "Magazine": "60 Round Mag"
+          },
+          "perks": ["Lightweight", "Quick Fix", "Dead Silence"]
+        }
+      ]
+    },
+    {
+      "name": "AK117",
+      "class": "AR",
+      "tier": "A",
+      "loadouts": [
+        {
+          "mode": "Multiplayer",
+          "name": "Versatile Beam",
           "attachments": {
             "Muzzle": "Monolithic Suppressor",
             "Barrel": "MIP Extended Light Barrel",
@@ -348,7 +244,26 @@
             "Laser": "OWC Laser - Tactical",
             "Underbarrel": "Ranger Foregrip"
           },
-          "perks": ["Lightweight", "Gung-Ho", "Alert"]
+          "perks": ["Lightweight", "Quick Fix", "Dead Silence"]
+        }
+      ]
+    },
+    {
+      "name": "Fennec",
+      "class": "SMG",
+      "tier": "A",
+      "loadouts": [
+        {
+          "mode": "Multiplayer",
+          "name": "Aggro SMG",
+          "attachments": {
+            "Muzzle": "Monolithic Suppressor",
+            "Barrel": "MIP Extended Light Barrel",
+            "Stock": "No Stock",
+            "Laser": "OWC Laser - Tactical",
+            "Magazine": "Extended Mag A"
+          },
+          "perks": ["Lightweight", "Quick Fix", "Dead Silence"]
         }
       ]
     },
@@ -358,37 +273,548 @@
       "tier": "A",
       "loadouts": [
         {
-          "mode": "Battle Royale",
-          "name": "BR Long-Range Beam",
-          "code": "M13-7H9J1L3N5P",
+          "mode": "Multiplayer",
+          "name": "Flex AR",
           "attachments": {
-            "Muzzle": "RTC Light Muzzle Brake",
-            "Laser": "QWC Laser - Tactical",
-            "Underbarrel": "Merc Foregrip",
-            "Optic": "3X Tactical Scope 1",
-            "Magazine": "60 Round Mag"
+            "Muzzle": "Monolithic Suppressor",
+            "Barrel": "MIP Extended Light Barrel",
+            "Stock": "No Stock",
+            "Laser": "OWC Laser - Tactical",
+            "Underbarrel": "Operator Foregrip"
           },
-          "perks": ["Lightweight", "Toughness", "High Alert"]
+          "perks": ["Lightweight", "Quick Fix", "Dead Silence"]
         }
       ]
     },
     {
-      "name": "Cronen Squall",
+      "name": "ICR-1",
       "class": "AR",
+      "tier": "A",
+      "loadouts": [
+        {
+          "mode": "Multiplayer",
+          "name": "Laser Beam",
+          "attachments": {
+            "Muzzle": "Monolithic Suppressor",
+            "Barrel": "MIP Light Barrel",
+            "Stock": "No Stock",
+            "Laser": "OWC Laser - Tactical",
+            "Underbarrel": "Ranger Foregrip"
+          },
+          "perks": ["Lightweight", "Quick Fix", "Dead Silence"]
+        }
+      ]
+    },
+    {
+      "name": "KN-44",
+      "class": "AR",
+      "tier": "A",
+      "loadouts": [
+        {
+          "mode": "Multiplayer",
+          "name": "Consistent AR",
+          "attachments": {
+            "Muzzle": "Monolithic Suppressor",
+            "Barrel": "MIP Extended Light Barrel",
+            "Stock": "No Stock",
+            "Laser": "OWC Laser - Tactical",
+            "Underbarrel": "Operator Foregrip"
+          },
+          "perks": ["Lightweight", "Quick Fix", "Dead Silence"]
+        }
+      ]
+    },
+    {
+      "name": "M4",
+      "class": "AR",
+      "tier": "A",
+      "loadouts": [
+        {
+          "mode": "Multiplayer",
+          "name": "Starter Evolved",
+          "attachments": {
+            "Muzzle": "Monolithic Suppressor",
+            "Barrel": "MIP Extended Light Barrel",
+            "Stock": "No Stock",
+            "Laser": "OWC Laser - Tactical",
+            "Underbarrel": "Operator Foregrip"
+          },
+          "perks": ["Lightweight", "Quick Fix", "Dead Silence"]
+        }
+      ]
+    },
+    {
+      "name": "Grau 5.56",
+      "class": "AR",
+      "tier": "A",
+      "loadouts": [
+        {
+          "mode": "Multiplayer",
+          "name": "Mid-Range Laser",
+          "attachments": {
+            "Muzzle": "Monolithic Suppressor",
+            "Barrel": "MIP Extended Light Barrel",
+            "Stock": "No Stock",
+            "Laser": "OWC Laser - Tactical",
+            "Underbarrel": "Ranger Foregrip"
+          },
+          "perks": ["Lightweight", "Quick Fix", "Dead Silence"]
+        }
+      ]
+    },
+    {
+      "name": "HVK-30",
+      "class": "AR",
+      "tier": "A",
+      "loadouts": [
+        {
+          "mode": "Multiplayer",
+          "name": "High-Risk Shredder",
+          "attachments": {
+            "Muzzle": "Monolithic Suppressor",
+            "Barrel": "MIP Light Barrel",
+            "Stock": "YKM Combat Stock",
+            "Laser": "OWC Laser - Tactical",
+            "Magazine": "Large Caliber Ammo"
+          },
+          "perks": ["Lightweight", "Quick Fix", "Dead Silence"]
+        }
+      ]
+    },
+    {
+      "name": "ZRG 20mm",
+      "class": "Sniper",
       "tier": "S",
       "loadouts": [
         {
-          "mode": "Battle Royale",
-          "name": "BR Precision AR",
-          "code": "CRONEN-8I0K2M4O6Q",
+          "mode": "Multiplayer",
+          "name": "Anti-Everything",
           "attachments": {
             "Muzzle": "Monolithic Suppressor",
-            "Barrel": "Cronen Squall Barrel",
-            "Stock": "Cronen Squall Stock",
+            "Barrel": "ZRG 20mm Barrel",
+            "Stock": "ZRG 20mm Stock",
+            "Laser": "OWC Laser - Tactical",
+            "Magazine": "Anti-Vehicle Mag"
+          },
+          "perks": ["Lightweight", "Toughness", "Dead Silence"]
+        }
+      ]
+    },
+    {
+      "name": "Kilo Bolt Action",
+      "class": "Sniper",
+      "tier": "S",
+      "loadouts": [
+        {
+          "mode": "Multiplayer",
+          "name": "Quick Scoper",
+          "attachments": {
+            "Muzzle": "Monolithic Suppressor",
+            "Barrel": "Kilo Bolt-Action Barrel",
+            "Stock": "Kilo Bolt-Action Stock",
+            "Laser": "OWC Laser - Tactical",
+            "Magazine": "Extended Mag"
+          },
+          "perks": ["Lightweight", "Toughness", "Dead Silence"]
+        }
+      ]
+    },
+    {
+      "name": "SO-14",
+      "class": "Marksman",
+      "tier": "S",
+      "loadouts": [
+        {
+          "mode": "Multiplayer",
+          "name": "T-800 Meta Build",
+          "attachments": {
+            "Muzzle": "Monolithic Suppressor",
+            "Barrel": "MIP Extended Light Barrel",
+            "Stock": "YKM Combat Stock",
+            "Laser": "OWC Laser - Tactical",
+            "Magazine": "25 Round Mags"
+          },
+          "perks": ["Lightweight", "Toughness", "Dead Silence"]
+        }
+      ]
+    },
+    {
+      "name": "Type 63",
+      "class": "Marksman",
+      "tier": "A",
+      "loadouts": [
+        {
+          "mode": "Multiplayer",
+          "name": "Precision Rifle",
+          "attachments": {
+            "Muzzle": "Monolithic Suppressor",
+            "Barrel": "MIP Light Barrel",
+            "Stock": "No Stock",
             "Laser": "OWC Laser - Tactical",
             "Underbarrel": "Operator Foregrip"
           },
           "perks": ["Lightweight", "Toughness", "Dead Silence"]
+        }
+      ]
+    },
+    {
+      "name": "ASM10",
+      "class": "AR",
+      "tier": "S",
+      "loadouts": [
+        {
+          "mode": "Multiplayer",
+          "name": "Heavy Hitter",
+          "attachments": {
+            "Muzzle": "Monolithic Suppressor",
+            "Barrel": "Branson",
+            "Stock": "No Stock",
+            "Laser": "OWC Laser - Tactical",
+            "Magazine": "40 Round Extended Mag"
+          },
+          "perks": ["Lightweight", "Toughness", "Dead Silence"]
+        }
+      ]
+    },
+    {
+      "name": "MX9",
+      "class": "SMG",
+      "tier": "S",
+      "loadouts": [
+        {
+          "mode": "Multiplayer",
+          "name": "Close-Range King",
+          "attachments": {
+            "Muzzle": "Monolithic Suppressor",
+            "Barrel": "MIP Extended Light Barrel",
+            "Stock": "No Stock",
+            "Laser": "OWC Laser - Tactical",
+            "Magazine": "Extended Mag"
+          },
+          "perks": ["Lightweight", "Quick Fix", "Dead Silence"]
+        }
+      ]
+    },
+    {
+      "name": "QQ9",
+      "class": "SMG",
+      "tier": "S",
+      "loadouts": [
+        {
+          "mode": "Multiplayer",
+          "name": "Classic Melter",
+          "attachments": {
+            "Muzzle": "Monolithic Suppressor",
+            "Barrel": "MIP Extended Light Barrel",
+            "Stock": "No Stock",
+            "Laser": "OWC Laser - Tactical",
+            "Magazine": "45 Round Extended Mag"
+          },
+          "perks": ["Lightweight", "Quick Fix", "Dead Silence"]
+        }
+      ]
+    },
+    {
+      "name": "PP19 Bizon",
+      "class": "SMG",
+      "tier": "A",
+      "loadouts": [
+        {
+          "mode": "Multiplayer",
+          "name": "Large Mag Rusher",
+          "attachments": {
+            "Muzzle": "Monolithic Suppressor",
+            "Barrel": "MIP Extended Light Barrel",
+            "Stock": "No Stock",
+            "Laser": "OWC Laser - Tactical",
+            "Underbarrel": "Merc Foregrip"
+          },
+          "perks": ["Lightweight", "Quick Fix", "Dead Silence"]
+        }
+      ]
+    },
+    {
+      "name": "RUS-79U",
+      "class": "SMG",
+      "tier": "A",
+      "loadouts": [
+        {
+          "mode": "Multiplayer",
+          "name": "Reliable Rusher",
+          "attachments": {
+            "Muzzle": "Monolithic Suppressor",
+            "Barrel": "MIP Extended Light Barrel",
+            "Stock": "No Stock",
+            "Laser": "OWC Laser - Tactical",
+            "Magazine": "38 Round Extended Mag"
+          },
+          "perks": ["Lightweight", "Quick Fix", "Dead Silence"]
+        }
+      ]
+    },
+    {
+      "name": "Locus",
+      "class": "Sniper",
+      "tier": "A",
+      "loadouts": [
+        {
+          "mode": "Multiplayer",
+          "name": "Balanced Sniper",
+          "attachments": {
+            "Muzzle": "Monolithic Suppressor",
+            "Barrel": "MIP Light Barrel",
+            "Stock": "YKM Combat Stock",
+            "Laser": "OWC Laser - Tactical",
+            "Magazine": "Extended Mag A"
+          },
+          "perks": ["Lightweight", "Toughness", "Dead Silence"]
+        }
+      ]
+    },
+    {
+      "name": "HDR",
+      "class": "Sniper",
+      "tier": "S",
+      "loadouts": [
+        {
+          "mode": "Multiplayer",
+          "name": "Heavy Hitter",
+          "attachments": {
+            "Muzzle": "Monolithic Suppressor",
+            "Barrel": "HDR Barrel",
+            "Stock": "HDR Stock",
+            "Laser": "OWC Laser - Tactical",
+            "Underbarrel": "Ranger Foregrip"
+          },
+          "perks": ["Lightweight", "Toughness", "Dead Silence"]
+        }
+      ]
+    },
+    {
+      "name": "M1 Garand",
+      "class": "Marksman",
+      "tier": "S",
+      "loadouts": [
+        {
+          "mode": "Multiplayer",
+          "name": "Classic Power",
+          "attachments": {
+            "Muzzle": "Monolithic Suppressor",
+            "Barrel": "M1 Garand Barrel",
+            "Stock": "M1 Garand Stock",
+            "Laser": "OWC Laser - Tactical",
+            "Underbarrel": "Operator Foregrip"
+          },
+          "perks": ["Lightweight", "Toughness", "Dead Silence"]
+        }
+      ]
+    },
+    {
+      "name": "BY15",
+      "class": "Shotgun",
+      "tier": "B",
+      "loadouts": [
+        {
+          "mode": "Multiplayer",
+          "name": "Pump Action",
+          "attachments": {
+            "Muzzle": "Monolithic Suppressor",
+            "Barrel": "MIP Extended Light Barrel",
+            "Stock": "No Stock",
+            "Laser": "OWC Laser - Tactical",
+            "Underbarrel": "Merc Foregrip"
+          },
+          "perks": ["Lightweight", "Quick Fix", "Dead Silence"]
+        }
+      ]
+    },
+    {
+      "name": "HS0405",
+      "class": "Shotgun",
+      "tier": "B",
+      "loadouts": [
+        {
+          "mode": "Multiplayer",
+          "name": "Heavy Shotgun",
+          "attachments": {
+            "Muzzle": "Monolithic Suppressor",
+            "Barrel": "HS0405 Barrel",
+            "Stock": "No Stock",
+            "Laser": "OWC Laser - Tactical",
+            "Underbarrel": "Merc Foregrip"
+          },
+          "perks": ["Lightweight", "Quick Fix", "Dead Silence"]
+        }
+      ]
+    },
+    {
+      "name": "MW11",
+      "class": "Pistol",
+      "tier": "A",
+      "loadouts": [
+        {
+          "mode": "Multiplayer",
+          "name": "Fast Switch Sidearm",
+          "attachments": {
+            "Muzzle": "Monolithic Suppressor",
+            "Barrel": "MIP Extended Light Barrel",
+            "Laser": "OWC Laser - Tactical",
+            "Magazine": "Extended Mag A",
+            "Rear Grip": "Stippled Grip Tape"
+          },
+          "perks": ["Lightweight", "Quick Fix", "Dead Silence"]
+        }
+      ]
+    },
+    {
+      "name": "Renetti",
+      "class": "Pistol",
+      "tier": "S",
+      "loadouts": [
+        {
+          "mode": "Multiplayer",
+          "name": "Burst Sidearm",
+          "attachments": {
+            "Muzzle": "Monolithic Suppressor",
+            "Barrel": "Renetti Barrel",
+            "Laser": "OWC Laser - Tactical",
+            "Magazine": "Extended Mag",
+            "Rear Grip": "Stippled Grip Tape"
+          },
+          "perks": ["Lightweight", "Quick Fix", "Dead Silence"]
+        }
+      ]
+    },
+    {
+      "name": "L-CAR 9",
+      "class": "Pistol",
+      "tier": "A",
+      "loadouts": [
+        {
+          "mode": "Multiplayer",
+          "name": "Full-Auto Sidearm",
+          "attachments": {
+            "Muzzle": "Monolithic Suppressor",
+            "Barrel": "L-CAR 9 Barrel",
+            "Laser": "OWC Laser - Tactical",
+            "Magazine": "Extended Mag",
+            "Rear Grip": "Stippled Grip Tape"
+          },
+          "perks": ["Lightweight", "Quick Fix", "Dead Silence"]
+        }
+      ]
+    },
+    {
+      "name": "JAK-12",
+      "class": "Shotgun",
+      "tier": "A",
+      "loadouts": [
+        {
+          "mode": "Multiplayer",
+          "name": "Full-Auto Shotgun",
+          "attachments": {
+            "Muzzle": "Monolithic Suppressor",
+            "Barrel": "JAK-12 Barrel",
+            "Stock": "No Stock",
+            "Laser": "OWC Laser - Tactical",
+            "Magazine": "Extended Mag"
+          },
+          "perks": ["Lightweight", "Quick Fix", "Dead Silence"]
+        }
+      ]
+    },
+    {
+      "name": "Echo",
+      "class": "Shotgun",
+      "tier": "B",
+      "loadouts": [
+        {
+          "mode": "Multiplayer",
+          "name": "Auto Shotgun",
+          "attachments": {
+            "Muzzle": "Monolithic Suppressor",
+            "Barrel": "Echo Barrel",
+            "Stock": "No Stock",
+            "Laser": "OWC Laser - Tactical",
+            "Magazine": "Extended Mag"
+          },
+          "perks": ["Lightweight", "Quick Fix", "Dead Silence"]
+        }
+      ]
+    },
+    {
+      "name": "Striker",
+      "class": "Shotgun",
+      "tier": "B",
+      "loadouts": [
+        {
+          "mode": "Multiplayer",
+          "name": "Semi-Auto Shotgun",
+          "attachments": {
+            "Muzzle": "Monolithic Suppressor",
+            "Barrel": "Striker Barrel",
+            "Stock": "No Stock",
+            "Laser": "OWC Laser - Tactical",
+            "Magazine": "Extended Mag"
+          },
+          "perks": ["Lightweight", "Quick Fix", "Dead Silence"]
+        }
+      ]
+    },
+    {
+      "name": "M4LMG",
+      "class": "LMG",
+      "tier": "B",
+      "loadouts": [
+        {
+          "mode": "Multiplayer",
+          "name": "LMG Variant",
+          "attachments": {
+            "Muzzle": "Monolithic Suppressor",
+            "Barrel": "MIP Extended Light Barrel",
+            "Stock": "No Stock",
+            "Laser": "OWC Laser - Tactical",
+            "Magazine": "100 Round Mag"
+          },
+          "perks": ["Lightweight", "Quick Fix", "Dead Silence"]
+        }
+      ]
+    },
+    {
+      "name": "RPD",
+      "class": "LMG",
+      "tier": "A",
+      "loadouts": [
+        {
+          "mode": "Multiplayer",
+          "name": "Accurate LMG",
+          "attachments": {
+            "Muzzle": "Monolithic Suppressor",
+            "Barrel": "RPD Barrel",
+            "Stock": "RPD Stock",
+            "Laser": "OWC Laser - Tactical",
+            "Underbarrel": "Ranger Foregrip"
+          },
+          "perks": ["Lightweight", "Quick Fix", "Dead Silence"]
+        }
+      ]
+    },
+    {
+      "name": "Chopper",
+      "class": "LMG",
+      "tier": "A",
+      "loadouts": [
+        {
+          "mode": "Multiplayer",
+          "name": "High RPM LMG",
+          "attachments": {
+            "Muzzle": "Monolithic Suppressor",
+            "Barrel": "Chopper Barrel",
+            "Stock": "No Stock",
+            "Laser": "OWC Laser - Tactical",
+            "Magazine": "100 Round Mag"
+          },
+          "perks": ["Lightweight", "Quick Fix", "Dead Silence"]
         }
       ]
     }

@@ -1,6 +1,7 @@
 import os
 import re
 import json
+import time
 import requests
 from datetime import datetime
 
@@ -115,87 +116,168 @@ CLASS_DEFAULT_LOADOUTS = {
     }
 }
 
+# پرک‌های پیش‌فرض به تفکیک مود بازی
+DEFAULT_PERKS = {
+    "Multiplayer": ["Lightweight", "Quick Fix", "Hardline"],
+    "Battle Royale": ["Framework", "Alertness", "Awareness"],
+}
+
+ATTACHMENT_TYPES = [
+    "Muzzle", "Barrel", "Stock", "Laser", "Magazine",
+    "Rear Grip", "Underbarrel", "Perk", "Optic", "Trigger"
+]
+
+# کد اشتراک‌گذاری چیدمان در CODM معمولاً یک رشته‌ی ۹ کاراکتری
+# حروف بزرگ/اعداد است (مثل 8K3F92LQ1) که یوتیوبرها با کلماتی مثل
+# "Code:", "Share code:", "Loadout code:" قبلش می‌نویسند.
+SHARE_CODE_PATTERN = re.compile(
+    r"(?:share\s*code|loadout\s*code|code)\s*[:\-]?\s*([A-Z0-9]{6,10})",
+    re.IGNORECASE
+)
+
+
 def parse_attachments_from_text(text):
     """
-    استخراج اتچمنت‌ها از متن یوتیوب با الگوی دقیق Regex
+    استخراج اتچمنت‌ها از متن یوتیوب با الگوی دقیق Regex.
+    توجه: چون \\s شامل \\n هم می‌شود، اگر مقدار را بدون محدود کردن
+    به همان خط بگیریم، ممکن است چند خط بعدی هم به اشتباه داخل مقدار
+    قرار بگیرد. برای همین این‌جا فقط تا انتهای همان خط جستجو می‌کنیم.
     """
-    attachment_types = ["Muzzle", "Barrel", "Stock", "Laser", "Magazine", "Rear Grip", "Underbarrel", "Perk", "Optic", "Trigger"]
     found_attachments = {}
-    
-    for att_type in attachment_types:
-        pattern = rf"{att_type}\s*[:\-]\s*([A-Za-z0-9\s\-]+)"
+
+    for att_type in ATTACHMENT_TYPES:
+        # [^\n\r]+ به‌جای \s+ -> فقط همان خط را می‌گیرد، نه کل متن بعدی را
+        pattern = rf"{att_type}\s*[:\-]\s*([^\n\r,]+)"
         match = re.search(pattern, text, re.IGNORECASE)
         if match:
-            found_attachments[att_type] = match.group(1).strip()
-            
+            value = match.group(1).strip()
+            # بریدن مقادیر غیرمنطقی طولانی (احتمالاً Regex اشتباه گرفته)
+            if 1 <= len(value) <= 40:
+                found_attachments[att_type] = value
+
     return found_attachments
 
-def fetch_from_youtube(weapon_name):
-    """
-    جستجو در یوتیوب برای پیدا کردن اتچمنت‌های مولتی‌پلییر سیزن جدید
-    """
-    if not YOUTUBE_API_KEY:
-        return None
 
-    query = f"CODM {weapon_name} best loadout multiplayer"
-    url = f"https://www.googleapis.com/youtube/v3/search?part=snippet&q={query}&type=video&maxResults=2&key={YOUTUBE_API_KEY}"
+def parse_share_code_from_text(text):
+    """
+    استخراج کد اشتراک‌گذاری چیدمان از توضیحات/عنوان ویدیو.
+    اگر پیدا نشود، رشته‌ی خالی برمی‌گرداند (نه None) تا فراخوان
+    مجبور به بررسی None نباشد.
+    """
+    match = SHARE_CODE_PATTERN.search(text)
+    if match:
+        return match.group(1).upper()
+    return ""
+
+
+def search_youtube(query):
+    """یک درخواست جستجوی یوتیوب می‌زند و آیتم‌های خام را برمی‌گرداند."""
+    if not YOUTUBE_API_KEY:
+        return []
+
+    url = "https://www.googleapis.com/youtube/v3/search"
+    params = {
+        "part": "snippet",
+        "q": query,
+        "type": "video",
+        "maxResults": 2,
+        "key": YOUTUBE_API_KEY,
+    }
 
     try:
-        response = requests.get(url, timeout=8)
+        response = requests.get(url, params=params, timeout=8)
         if response.status_code == 200:
-            data = response.json()
-            for item in data.get("items", []):
-                description = item["snippet"]["description"]
-                title = item["snippet"]["title"]
-                combined_text = f"{title}\n{description}"
-                
-                attachments = parse_attachments_from_text(combined_text)
-                if len(attachments) >= 3:
-                    return {
-                        "mode": "Multiplayer",
-                        "name": f"MP Meta ({weapon_name})",
-                        "attachments": attachments,
-                        "perks": ["Lightweight", "Quick Fix", "Dead Silence"]
-                    }
-    except Exception as e:
-        print(f"خطا در دریافت یوتیوب برای {weapon_name}: {e}")
-        
+            return response.json().get("items", [])
+        else:
+            # مهم: کد ۴۰۳ معمولاً یعنی quota روزانه‌ی یوتیوب تمام شده
+            print(f"یوتیوب استتوس {response.status_code} برگرداند: {response.text[:200]}")
+    except requests.RequestException as e:
+        print(f"خطای شبکه در درخواست یوتیوب: {e}")
+
+    return []
+
+
+def fetch_loadout_for_mode(weapon_name, mode_label, search_phrase):
+    """
+    جستجو در یوتیوب برای پیدا کردن بهترین چیدمان یک گان برای یک مود
+    مشخص (Multiplayer یا Battle Royale). اگر چیزی قابل‌قبول پیدا نشد،
+    None برمی‌گرداند تا فراخوان از مقدار پیش‌فرض کلاس استفاده کند.
+    """
+    query = f"CODM {weapon_name} {search_phrase}"
+    items = search_youtube(query)
+
+    for item in items:
+        description = item["snippet"].get("description", "")
+        title = item["snippet"].get("title", "")
+        combined_text = f"{title}\n{description}"
+
+        attachments = parse_attachments_from_text(combined_text)
+        share_code = parse_share_code_from_text(combined_text)
+
+        if len(attachments) >= 3:
+            return {
+                "mode": mode_label,
+                "name": f"{mode_label} Meta ({weapon_name})",
+                "attachments": attachments,
+                "perks": DEFAULT_PERKS.get(mode_label, []),
+                "code": share_code,  # ممکن است خالی باشد اگر پیدا نشد
+            }
+
     return None
+
+
+def build_default_loadout(weapon_class, mode_label):
+    """چیدمان پیش‌فرض بر اساس کلاس گان، برای زمانی که یوتیوب چیزی نداد."""
+    default_atts = CLASS_DEFAULT_LOADOUTS.get(weapon_class, CLASS_DEFAULT_LOADOUTS["AR"])
+    return {
+        "mode": mode_label,
+        "name": f"Pro {mode_label} Build",
+        "attachments": default_atts,
+        "perks": DEFAULT_PERKS.get(mode_label, []),
+        "code": "",  # چیدمان پیش‌فرض کد اشتراک‌گذاری واقعی ندارد
+    }
+
 
 def build_weapon_database():
     weapons_list = []
+
+    # هر مود یک عبارت جستجوی جدا دارد تا یوتیوب نتایج مرتبط‌تری بدهد
+    modes = [
+        ("Multiplayer", "best loadout multiplayer"),
+        ("Battle Royale", "best loadout battle royale BR"),
+    ]
 
     for item in TARGET_WEAPONS:
         w_name = item["name"]
         w_class = item["class"]
         w_tier = item["tier"]
-        
+
         print(f"در حال پردازش گان: {w_name} ({w_class})...")
 
-        # تلاش برای استخراج آنلاین از یوتیوب
-        yt_loadout = fetch_from_youtube(w_name)
+        loadouts = []
+        for mode_label, search_phrase in modes:
+            loadout = fetch_loadout_for_mode(w_name, mode_label, search_phrase)
+            if not loadout:
+                loadout = build_default_loadout(w_class, mode_label)
+            loadouts.append(loadout)
 
-        # اگر آنلاین پیدا نشد، از اتچمنت متناسب با کلاس همان گان استفاده می‌شود
-        if not yt_loadout:
-            default_atts = CLASS_DEFAULT_LOADOUTS.get(w_class, CLASS_DEFAULT_LOADOUTS["AR"])
-            yt_loadout = {
-                "mode": "Multiplayer",
-                "name": f"Pro MP Build",
-                "attachments": default_atts,
-                "perks": ["Lightweight", "Quick Fix", "Hardline"]
-            }
+            # فاصله‌ی کوچک بین درخواست‌ها برای احترام به Rate Limit یوتیوب.
+            # هر جستجو ۱۰۰ واحد از quota روزانه (۱۰,۰۰۰ واحدی) مصرف می‌کند؛
+            # با ۳۸ گان × ۲ مود = ۷۶ درخواست در روز، به سقف نزدیک می‌شویم.
+            time.sleep(0.5)
 
         weapons_list.append({
             "name": w_name,
             "class": w_class,
             "tier": w_tier,
-            "loadouts": [yt_loadout]
+            "loadouts": loadouts,
         })
 
     return {
         "weapons": weapons_list,
         "last_updated": datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
     }
+
 
 def main():
     print("=== شروع استخراج اطلاعات تمام گان‌ها ===")
@@ -206,6 +288,7 @@ def main():
         json.dump(data, f, ensure_ascii=False, indent=2)
 
     print(f"موفقیت‌آمیز بود! دیتابیس با {len(data['weapons'])} گان ذخیره شد.")
+
 
 if __name__ == "__main__":
     main()
